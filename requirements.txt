@@ -12,3 +12,6 @@ alembic==1.13.3
 
 # HTTP Client
 httpx==0.27.2
+
+# XML Parsing
+xmltodict==0.14.1
