@@ -5,4 +5,7 @@ pydantic==2.9.2
 pydantic-settings==2.5.2
 python-dotenv==1.0.1
 
-# Will be expanded in each milestone
+# Database
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.10
+alembic==1.13.3

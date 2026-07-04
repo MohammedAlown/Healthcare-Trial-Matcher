@@ -1,16 +1,18 @@
 """
 trials.py - Clinical Trial Matching Endpoints
 
-These are placeholder endpoints that will be connected to the
-RAG engine in later milestones. For now they return mock data
-so we can verify the API structure works end-to-end.
+Now connected to PostgreSQL via SQLAlchemy.
+Supports creating trials, fetching by ID, listing, and matching.
 """
 
 import time
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends, Query
+from sqlalchemy.orm import Session
 
 from backend.app.models.schemas import PatientQuery, MatchResponse, TrialMatch
 from backend.app.core.logger import logger
+from database.connection import get_db
+from database import crud
 
 router = APIRouter(prefix="/trials", tags=["Trials"])
 
@@ -19,21 +21,24 @@ router = APIRouter(prefix="/trials", tags=["Trials"])
     "/match",
     response_model=MatchResponse,
     summary="Match Patient to Clinical Trials",
-    description="Send a patient query and receive matching clinical trials.",
 )
-async def match_trials(query: PatientQuery):
+async def match_trials(query: PatientQuery, db: Session = Depends(get_db)):
     """
     Accepts a patient query and returns matching clinical trials.
-
-    Currently returns mock data. Will be connected to:
-    - Qdrant vector search (Milestone 8)
-    - RAG engine with LangChain (Milestone 9)
-    - Cross-Encoder reranking (Milestone 10)
+    Currently returns mock data — connected to RAG in Milestone 9.
     """
     start_time = time.time()
     logger.info(f"Received match request: condition='{query.condition}'")
 
-    # --- Mock results (replaced with real search in Milestone 9) ---
+    # Log the search action for audit/governance
+    crud.create_audit_log(
+        db=db,
+        action="search",
+        entity_type="patient_query",
+        details={"condition": query.condition, "age": query.age, "gender": query.gender},
+    )
+
+    # Mock results (will be replaced by real vector search)
     mock_matches = [
         TrialMatch(
             trial_id="NCT04012345",
@@ -58,7 +63,6 @@ async def match_trials(query: PatientQuery):
     ]
 
     elapsed_ms = (time.time() - start_time) * 1000
-
     logger.info(f"Returning {len(mock_matches)} matches in {elapsed_ms:.1f}ms")
 
     return MatchResponse(
@@ -70,21 +74,71 @@ async def match_trials(query: PatientQuery):
 
 
 @router.get(
+    "/list",
+    summary="List Clinical Trials",
+    description="Retrieve trials from the database with optional filtering.",
+)
+async def list_trials(
+    skip: int = Query(0, ge=0, description="Records to skip"),
+    limit: int = Query(20, ge=1, le=100, description="Max records to return"),
+    status: str = Query(None, description="Filter by status"),
+    db: Session = Depends(get_db),
+):
+    """List trials from PostgreSQL with pagination."""
+    trials = crud.get_trials(db, skip=skip, limit=limit, status=status)
+    total = crud.count_trials(db)
+    return {
+        "trials": [
+            {
+                "nct_id": t.nct_id,
+                "title": t.title,
+                "status": t.status,
+                "phase": t.phase,
+                "conditions": t.conditions,
+            }
+            for t in trials
+        ],
+        "total": total,
+        "skip": skip,
+        "limit": limit,
+    }
+
+
+@router.get(
+    "/stats",
+    summary="Database Statistics",
+    description="Get counts of trials and articles in the database.",
+)
+async def get_stats(db: Session = Depends(get_db)):
+    """Return database statistics."""
+    return {
+        "clinical_trials": crud.count_trials(db),
+        "pubmed_articles": crud.count_articles(db),
+    }
+
+
+@router.get(
     "/{trial_id}",
     summary="Get Trial Details",
-    description="Retrieve details of a specific clinical trial by its NCT ID.",
 )
-async def get_trial(trial_id: str):
-    """
-    Fetch a single trial by NCT ID.
-    Will be connected to PostgreSQL in Milestone 3.
-    """
+async def get_trial(trial_id: str, db: Session = Depends(get_db)):
+    """Fetch a single trial by NCT ID from PostgreSQL."""
     logger.info(f"Fetching trial: {trial_id}")
 
-    # Placeholder — will query PostgreSQL in Milestone 3
+    trial = crud.get_trial_by_nct_id(db, trial_id)
+    if not trial:
+        raise HTTPException(status_code=404, detail=f"Trial {trial_id} not found")
+
     return {
-        "trial_id": trial_id,
-        "title": f"Trial {trial_id} (placeholder)",
-        "status": "Recruiting",
-        "message": "Full data available after Milestone 3 (PostgreSQL)",
+        "nct_id": trial.nct_id,
+        "title": trial.title,
+        "brief_summary": trial.brief_summary,
+        "status": trial.status,
+        "phase": trial.phase,
+        "conditions": trial.conditions,
+        "interventions": trial.interventions,
+        "eligibility_criteria": trial.eligibility_criteria,
+        "sponsor": trial.sponsor,
+        "url": trial.url,
+        "created_at": trial.created_at,
     }

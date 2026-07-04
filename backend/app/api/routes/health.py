@@ -1,35 +1,39 @@
 """
 health.py - Health Check Endpoint
 
-Every production API needs a health check endpoint.
-Monitoring tools (Docker, Kubernetes, load balancers) hit this
-endpoint to verify the service is alive and responding.
+Now includes database connectivity check.
 """
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
+from sqlalchemy import text
 from datetime import datetime
 
 from backend.app.core.config import settings
 from backend.app.models.schemas import HealthResponse
+from database.connection import get_db
 
-# APIRouter groups related endpoints together
 router = APIRouter(tags=["Health"])
 
 
 @router.get(
     "/health",
-    response_model=HealthResponse,
     summary="Health Check",
-    description="Returns the current status of the API service.",
+    description="Returns API and database status.",
 )
-async def health_check():
-    """
-    Returns service status, app name, version, and server timestamp.
-    Used by monitoring tools to verify the API is running.
-    """
-    return HealthResponse(
-        status="healthy",
-        app_name=settings.APP_NAME,
-        version=settings.APP_VERSION,
-        timestamp=datetime.utcnow(),
-    )
+async def health_check(db: Session = Depends(get_db)):
+    """Check API and database health."""
+    # Test database connection
+    db_status = "healthy"
+    try:
+        db.execute(text("SELECT 1"))
+    except Exception:
+        db_status = "unhealthy"
+
+    return {
+        "status": "healthy",
+        "app_name": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+        "timestamp": datetime.utcnow(),
+        "database": db_status,
+    }
