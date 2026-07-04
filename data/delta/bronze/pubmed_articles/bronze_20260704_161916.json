@@ -1,0 +1,157 @@
+{
+  "records": [
+    {
+      "pmid": "39121882",
+      "title": "New promises and challenges in the treatment of advanced non-small-cell lung cancer.",
+      "abstract": "Targeted therapies and immunotherapies have radically improved treatment for advanced non-small-cell lung cancer (NSCLC). Tyrosine kinase inhibitors targeting oncogenic driver mutations continue to evolve over multiple generations to enhance effectiveness and tackle drug resistance. Immune checkpoint inhibitors remain integral for the treatment of NSCLCs that do not have specific actionable genetic mutations. Antibody-drug conjugates and bispecific antibodies are being integrated into treatment guidelines, and emerging therapies include T-cell engagers, cellular therapies, cancer vaccines, and external devices. Despite these advances, challenges remain in identifying predictive biomarkers to individually tailor treatments, abrogate resistance, reduce costs, and ensure optimal cancer treatment accessibility.",
+      "authors": [
+        "Meyer May-Lucie",
+        "Fitzgerald Bailey G",
+        "Paz-Ares Luis",
+        "Cappuzzo Federico",
+        "J\u00e4nne Pasi A",
+        "Peters Solange",
+        "Hirsch Fred R"
+      ],
+      "journal": "Lancet (London, England)",
+      "publication_date": "2024 Aug 24",
+      "doi": "10.1016/S0140-6736(24)01029-8",
+      "keywords": [],
+      "mesh_terms": [
+        "Humans",
+        "Antibodies, Bispecific",
+        "Cancer Vaccines",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Immune Checkpoint Inhibitors",
+        "Immunotherapy",
+        "Lung Neoplasms",
+        "Molecular Targeted Therapy",
+        "Tyrosine Kinase Inhibitors"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39121882/"
+    },
+    {
+      "pmid": "26297204",
+      "title": "Lung cancer: Biology and treatment options.",
+      "abstract": "Lung cancer remains the leading cause of cancer mortality in men and women in the U.S. and worldwide. About 90% of lung cancer cases are caused by smoking and the use of tobacco products. However, other factors such as radon gas, asbestos, air pollution exposures, and chronic infections can contribute to lung carcinogenesis. In addition, multiple inherited and acquired mechanisms of susceptibility to lung cancer have been proposed. Lung cancer is divided into two broad histologic classes, which grow and spread differently: small-cell lung carcinomas (SCLCs) and non-small cell lung carcinomas (NSCLCs). Treatment options for lung cancer include surgery, radiation therapy, chemotherapy, and targeted therapy. Therapeutic-modalities recommendations depend on several factors, including the type and stage of cancer. Despite the improvements in diagnosis and therapy made during the past 25 years, the prognosis for patients with lung cancer is still unsatisfactory. The responses to current standard therapies are poor except for the most localized cancers. However, a better understanding of the biology pertinent to these challenging malignancies, might lead to the development of more efficacious and perhaps more specific drugs. The purpose of this review is to summarize the recent developments in lung cancer biology and its therapeutic strategies, and discuss the latest treatment advances including therapies currently under clinical investigation.",
+      "authors": [
+        "Lemjabbar-Alaoui Hassan",
+        "Hassan Omer Ui",
+        "Yang Yi-Wei",
+        "Buchanan Petra"
+      ],
+      "journal": "Biochimica et biophysica acta",
+      "publication_date": "2015 Dec",
+      "doi": "10.1016/j.bbcan.2015.08.002",
+      "keywords": [
+        "Immunotherapies",
+        "Lung cancer",
+        "Mesothelioma",
+        "Non-Small Cell Lung",
+        "Small-cell lung carcinomas",
+        "Surgery",
+        "Targeted therapies",
+        "Therapies",
+        "Treatments"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Drug Therapy",
+        "Genetic Predisposition to Disease",
+        "Humans",
+        "Lung Neoplasms",
+        "Molecular Targeted Therapy",
+        "Neoplasm Proteins",
+        "Radiotherapy",
+        "Treatment Outcome"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26297204/"
+    },
+    {
+      "pmid": "40136350",
+      "title": "Lung Cancer: Targeted Therapy in 2025.",
+      "abstract": "Lung cancer treatment has changed in the last twenty years since the discovery of EGFR mutations. In this article, we will review the current state of the art for non-small cell lung cancer (NSCLC) actionable genomic alterations (AGA). AGAs are mostly found in lung adenocarcinomas, a subtype of non-small cell lung cancers. We will focus on the current treatment for EGFR mutations, ALK fusions, ROS1 fusions, BRAF V600E mutations, MET exon 14-skipping mutations, RET fusions, KRAS G12C mutations, ERBB2 mutations (also called HER2 mutations), and NTRK fusions. We will also touch on the key toxicities associated with these medications. Treatments are mostly available for the metastatic stage, but we will also discuss adjuvant therapy for EGFR mutations and ALK fusions, as well as stage III post-chemoradiotherapy treatment for EGFR lung cancer.",
+      "authors": [
+        "Bouchard Nicole",
+        "Daaboul Nathalie"
+      ],
+      "journal": "Current oncology (Toronto, Ont.)",
+      "publication_date": "2025 Mar 02",
+      "doi": "10.3390/curroncol32030146",
+      "keywords": [
+        "lung cancer",
+        "molecular testing",
+        "targeted therapy"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Lung Neoplasms",
+        "Molecular Targeted Therapy",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Mutation",
+        "ErbB Receptors"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40136350/"
+    },
+    {
+      "pmid": "39337530",
+      "title": "Emerging Targets in Non-Small Cell Lung Cancer.",
+      "abstract": "Lung cancer is responsible for a high burden of disease globally. Over the last two decades, the discovery of targetable oncogenic genomic alterations has revolutionized the treatment landscape for early-stage and advanced non-small cell lung cancer (NSCLC). New molecular drivers continue to emerge as promising therapeutic targets, including KRAS non-G12C, RAF/MEK, HER3, Nectin-4, folate receptor alpha, ITGB6, and PRMT5. In this review, we summarize the emerging molecular targets with a potential clinical impact in advanced NSCLC, elaborating on their clinical characteristics and specific mechanisms and molecular pathways for which targeted treatments are currently available. Additionally, we present an aggregate of ongoing clinical trials investigating the available treatment options targeting such alterations, in addition to their current recruitment status and preliminary efficacy data. These advancements may guide further research endeavors and inform future treatment strategies to improve the management of and transform outcomes for patients with advanced NSCLC.",
+      "authors": [
+        "Liu Louisa",
+        "Soler Joshua",
+        "Reckamp Karen L",
+        "Sankar Kamya"
+      ],
+      "journal": "International journal of molecular sciences",
+      "publication_date": "2024 Sep 18",
+      "doi": "10.3390/ijms251810046",
+      "keywords": [
+        "non-small cell lung cancer",
+        "novel combinatorial approaches",
+        "oncogene driver",
+        "targeted therapies"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Lung Neoplasms",
+        "Molecular Targeted Therapy",
+        "Antineoplastic Agents"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39337530/"
+    },
+    {
+      "pmid": "27574741",
+      "title": "Lung cancer: current therapies and new targeted treatments.",
+      "abstract": "Lung cancer is the most frequent cause of cancer-related deaths worldwide. Every year, 1\u00b78 million people are diagnosed with lung cancer, and 1\u00b76 million people die as a result of the disease. 5-year survival rates vary from 4-17% depending on stage and regional differences. In this Seminar, we discuss existing treatment for patients with lung cancer and the promise of precision medicine, with special emphasis on new targeted therapies. Some subgroups, eg-patients with poor performance status and elderly patients-are not specifically addressed, because these groups require special treatment considerations and no frameworks have been established in terms of new targeted therapies. We discuss prevention and early detection of lung cancer with an emphasis on lung cancer screening. Although we acknowledge the importance of smoking prevention and cessation, this is a large topic beyond the scope of this Seminar.",
+      "authors": [
+        "Hirsch Fred R",
+        "Scagliotti Giorgio V",
+        "Mulshine James L",
+        "Kwon Regina",
+        "Curran Walter J",
+        "Wu Yi-Long",
+        "Paz-Ares Luis"
+      ],
+      "journal": "Lancet (London, England)",
+      "publication_date": "2017 Jan 21",
+      "doi": "10.1016/S0140-6736(16)30958-8",
+      "keywords": [],
+      "mesh_terms": [
+        "Antineoplastic Agents",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Combined Modality Therapy",
+        "Early Detection of Cancer",
+        "Humans",
+        "Immunotherapy",
+        "Lung Neoplasms",
+        "Mutation",
+        "Survival Rate"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27574741/"
+    }
+  ],
+  "count": 5,
+  "layer": "bronze"
+}

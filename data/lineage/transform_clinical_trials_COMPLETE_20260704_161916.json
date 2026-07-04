@@ -1,0 +1,30 @@
+{
+  "eventType": "COMPLETE",
+  "eventTime": "2026-07-04T16:19:16.310891Z",
+  "run": {
+    "runId": "3988a44b-67c2-45c5-8471-88bae1235e43",
+    "facets": {}
+  },
+  "job": {
+    "namespace": "healthcare-trial-matcher",
+    "name": "transform_clinical_trials"
+  },
+  "inputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "bronze.clinical_trials",
+      "facets": {
+        "record_count": 20
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "silver.clinical_trials",
+      "facets": {
+        "record_count": 20
+      }
+    }
+  ]
+}

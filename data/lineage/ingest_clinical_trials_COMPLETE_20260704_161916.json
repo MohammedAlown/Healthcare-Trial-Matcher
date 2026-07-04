@@ -1,0 +1,30 @@
+{
+  "eventType": "COMPLETE",
+  "eventTime": "2026-07-04T16:19:16.299470Z",
+  "run": {
+    "runId": "e6a8ec34-55f1-4f7a-a742-f1d9e1255933",
+    "facets": {}
+  },
+  "job": {
+    "namespace": "healthcare-trial-matcher",
+    "name": "ingest_clinical_trials"
+  },
+  "inputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "clinicaltrials.gov",
+      "facets": {
+        "source_type": "api"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "bronze.clinical_trials",
+      "facets": {
+        "record_count": 20
+      }
+    }
+  ]
+}

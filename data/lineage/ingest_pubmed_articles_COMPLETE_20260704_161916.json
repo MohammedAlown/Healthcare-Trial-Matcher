@@ -1,0 +1,30 @@
+{
+  "eventType": "COMPLETE",
+  "eventTime": "2026-07-04T16:19:16.299963Z",
+  "run": {
+    "runId": "a486e5e1-d331-4402-8273-3783b7646529",
+    "facets": {}
+  },
+  "job": {
+    "namespace": "healthcare-trial-matcher",
+    "name": "ingest_pubmed_articles"
+  },
+  "inputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "pubmed",
+      "facets": {
+        "source_type": "api"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "bronze.pubmed_articles",
+      "facets": {
+        "record_count": 5
+      }
+    }
+  ]
+}

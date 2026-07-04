@@ -1,0 +1,36 @@
+{
+  "eventType": "COMPLETE",
+  "eventTime": "2026-07-04T16:19:18.284954Z",
+  "run": {
+    "runId": "8eda1df9-f450-48a9-ab5a-495cc4fcbf00",
+    "facets": {}
+  },
+  "job": {
+    "namespace": "healthcare-trial-matcher",
+    "name": "full_pipeline"
+  },
+  "inputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "clinicaltrials.gov",
+      "facets": {}
+    },
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "pubmed",
+      "facets": {}
+    }
+  ],
+  "outputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "delta.gold.clinical_trials",
+      "facets": {}
+    },
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "qdrant.clinical_data",
+      "facets": {}
+    }
+  ]
+}

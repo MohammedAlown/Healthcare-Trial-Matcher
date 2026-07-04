@@ -1,70 +1,15 @@
 """
-Kafka Producer — Publishes clinical trial and PubMed data to Kafka topics.
-
-In production, data flows:
-  API Source → Kafka Producer → Topic → Kafka Consumer → Database
-
-This decouples ingestion from storage, enabling:
-  - Buffering during high load
-  - Multiple consumers processing the same data
-  - Replay of messages if processing fails
+Kafka Producer — Uses in-memory message bus with schema validation.
+In production, swap InMemoryBus for real Kafka (confluent-kafka).
 """
 
 import json
 import time
-from typing import Optional
 from backend.app.core.logger import logger
-
-# Try confluent-kafka first, fall back to kafka-python
-try:
-    from confluent_kafka import Producer as ConfluentProducer
-
-    class KafkaProducer:
-        def __init__(self, bootstrap_servers: str = "localhost:9092"):
-            self.config = {"bootstrap.servers": bootstrap_servers}
-            self._producer = None
-            self.connected = False
-
-        def connect(self):
-            try:
-                self._producer = ConfluentProducer(self.config)
-                self.connected = True
-                logger.info("Kafka producer connected (confluent-kafka)")
-            except Exception as e:
-                logger.warning(f"Kafka not available: {e}. Using in-memory fallback.")
-                self.connected = False
-
-        def produce(self, topic: str, key: str, value: dict):
-            message = json.dumps(value)
-            if self.connected and self._producer:
-                self._producer.produce(topic, key=key, value=message)
-                self._producer.flush()
-                logger.info(f"Produced to {topic}: {key}")
-            else:
-                InMemoryBus.publish(topic, key, value)
-
-        def close(self):
-            if self._producer:
-                self._producer.flush()
-
-except ImportError:
-    class KafkaProducer:
-        def __init__(self, bootstrap_servers: str = "localhost:9092"):
-            self.connected = False
-        def connect(self):
-            logger.info("Kafka not installed. Using in-memory message bus.")
-        def produce(self, topic: str, key: str, value: dict):
-            InMemoryBus.publish(topic, key, value)
-        def close(self):
-            pass
 
 
 class InMemoryBus:
-    """
-    In-memory message bus fallback when Kafka is not running.
-    Implements the same produce/consume pattern for development.
-    Schema validation is applied before publishing.
-    """
+    """In-memory message bus with schema validation (Kafka replacement for dev)."""
     _topics: dict[str, list] = {}
     _schemas: dict[str, dict] = {}
 
@@ -89,31 +34,32 @@ class InMemoryBus:
             raise ValueError(f"Schema validation failed for topic '{topic}'")
         if topic not in cls._topics:
             cls._topics[topic] = []
-        message = {
-            "key": key,
-            "value": value,
-            "timestamp": time.time(),
-        }
-        cls._topics[topic].append(message)
-        logger.info(f"[InMemoryBus] Published to '{topic}': {key}")
+        cls._topics[topic].append({"key": key, "value": value, "timestamp": time.time()})
+        logger.info(f"[Kafka/InMemoryBus] Published to '{topic}': {key}")
 
     @classmethod
     def consume(cls, topic: str, from_offset: int = 0) -> list[dict]:
-        messages = cls._topics.get(topic, [])
-        return messages[from_offset:]
+        return cls._topics.get(topic, [])[from_offset:]
 
     @classmethod
     def get_stats(cls) -> dict:
         return {topic: len(msgs) for topic, msgs in cls._topics.items()}
 
 
-# Register schemas for validation
-InMemoryBus.register_schema("clinical-trials", [
-    "nct_id", "title", "status"
-])
-InMemoryBus.register_schema("pubmed-articles", [
-    "pmid", "title"
-])
-InMemoryBus.register_schema("documents", [
-    "filename", "num_pages"
-])
+# Register schemas
+InMemoryBus.register_schema("clinical-trials", ["nct_id", "title", "status"])
+InMemoryBus.register_schema("pubmed-articles", ["pmid", "title"])
+InMemoryBus.register_schema("documents", ["filename", "num_pages"])
+
+
+class KafkaProducer:
+    """Producer that uses InMemoryBus (swap for confluent-kafka in production)."""
+    def __init__(self, bootstrap_servers: str = "localhost:9092"):
+        self.connected = False
+    def connect(self):
+        self.connected = True
+        logger.info("Kafka producer ready (in-memory mode)")
+    def produce(self, topic: str, key: str, value: dict):
+        InMemoryBus.publish(topic, key, value)
+    def close(self):
+        pass

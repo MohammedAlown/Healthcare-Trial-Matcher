@@ -1,0 +1,781 @@
+{
+  "records": [
+    {
+      "nct_id": "NCT03228186",
+      "title": "Trial of Pevonedistat Plus Docetaxel in Patients With Previously Treated Advanced Non-Small Cell Lung Cancer",
+      "brief_summary": "This study is a single institution Phase II single arm trial to assess the efficacy of the combination of pevonedistat plus docetaxel in patients with previously treated advanced NSCLC (non-small cell lung cancer).",
+      "detailed_description": "",
+      "status": "TERMINATED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "name": "Pevonedistat",
+          "type": "DRUG"
+        },
+        {
+          "name": "Docetaxel",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Patients 18 years of age or older\n* Histologically confirmed stage IV NSCLC (adenocarcinoma, squamous cell carcinoma, large cell carcinoma, or not otherwise specified) or recurrent NSCLC not amenable to curative therapy\n* Patients must have already received platinum-based chemotherapy; they may have also received prior immunotherapy or targeted therapy\n* Eastern Cooperative Oncology Group (ECOG) performance status 0-2 (an attempt to quantify cancer patients' general well-being and activities of daily life. The score ranges from 0 to 5 where 0 is asymptomatic and 5 is death.)\n* Clinical laboratory values within appropriate parameters\n* Female patients who are of childbearing potential and all males must agree to practice true abstinence or use effective methods of contraception\n* Patients must be able to understand and sign the informed consent.\n* Patients must have measurable disease as defined by RECIST v1.1 criteria\n* It is preferable that patients have an adequate tissue sample available\n\nExclusion Criteria:\n\n* Treatment with any investigational products within 4 weeks before the first dose of any study drug\n* Any serious medical or psychiatric illness that could, in the investigator's opinion, potentially interfere with the completion of study procedures\n* Active uncontrolled infection or severe infectious disease, such as severe pneumonia, meningitis, or septicemia that require IV antibiotics within 2 weeks of starting study treatment\n* Major surgery within 14 days before the first dose of any study drug or a scheduled surgery during study period\n* Diagnosed or treated for another malignancy within 2 years before randomization or previously diagnosed with another malignancy and have any evidence of residual disease. Patients with nonmelanoma skin cancer or carcinoma in situ of any type are not excluded if they have undergone resection.\n* Life-threatening illness unrelated to cancer\n* Patients with uncontrolled coagulopathy or bleeding disorder\n* Known human immunodeficiency virus (HIV) seropositivity\n* Known hepatitis B surface antigen seropositivity or known or suspected active hepatitis C infection\n* Known hepatic cirrhosis or severe pre-existing hepatic impairment\n* Known cardiopulmonary disease\n* Uncontrolled high blood pressure (ie, systolic blood pressure \\> 180 mm Hg, diastolic blood pressure \\> 95 mm Hg)\n* Prolonged rate corrected QT (QTc) interval \u2265 500 msec, calculated according to institutional guidelines\n* Interstitial lung disease or pulmonary fibrosis\n* Systemic antineoplastic therapy or radiotherapy for other malignant conditions within 14 days before the first dose of any study drug, except for hydroxyurea.\n* Symptomatic or history of untreated brain or leptomeningeal metastases. Treated patients should be neurologically stable for 4 weeks after completion of appropriate therapy. Patients should be off steroids at least 3 days prior to start of therapy on clinical trial.\n* Treatment with clinically significant metabolic enzyme inducers within 14 days before the first dose of the study drug. Clinically significant metabolic enzyme inducers are not permitted during this study (see Appendix III for more details).\n* Female patients who are lactating, breastfeeding, or have a positive pregnancy test\n* Female patients who intend to donate eggs (ova) during the course of this study or 4 months after receiving their last dose of study drug(s).\n* Male patients who intend to donate sperm during the course of this study or 4 months after receiving their last dose of study drug(s).\n* Known hypersensitivity to docetaxel or other drugs formulated with polysorbate 80\n* Prior therapy with docetaxel for non-small cell lung cancer\n* Peripheral neuropathy of CTCAE v4.03 grade \u2265 2",
+      "sponsor": "University of Michigan Rogel Cancer Center",
+      "enrollment": 40,
+      "start_date": "2018-03-05",
+      "completion_date": "2021-11-04",
+      "locations": [
+        {
+          "facility": "University of Michigan Comprehensive Cancer Center",
+          "city": "Ann Arbor",
+          "country": "United States"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03228186",
+      "last_updated": "2023-10-23"
+    },
+    {
+      "nct_id": "NCT06458894",
+      "title": "Research on Building and Application of Internet-based Home Pre-rehabilitation Model for Lung Surgery Patients.",
+      "brief_summary": "This study, based on the Internet platform, involving family caregivers in preoperative management, not only promotes patient compliance with preoperative rehabilitation exercise, but also provides multi-way rehabilitation measures for elderly patients with limited mobility or medical difficulties, and also provides new ideas for other specialties\u3002",
+      "detailed_description": "This study using a randomized controlled trial, 100 patients that meet the inclusion criteria are divided into experimental group and control group, experimental group adopts routine nursing measures, intervention group for preoperative family rehabilitation training, intervention for 2 weeks, observe the first after surgery, lung function index, chest catheterization days, postoperative hospital stay and medical expenses.",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "name": "Prerehabilitation",
+          "type": "BEHAVIORAL"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n1\\. Age \u2265 60 years old; 2. A preliminary diagnosis of pulmonary\u7ed3\u8282 or lung tumor by chest CT; 3. Planning to undergo thoracoscopic lung resection surgery; 4. Voluntary participation of patients.\n\nExclusion Criteria:\n\n1\\. Patients with severe condition who cannot tolerate pre-rehabilitation training; 2. Patients with consciousness disorder or mental abnormalities who cannot cooperate with pre-rehabilitation training; 3. Patients who cannot complete questionnaire filling out due to visual, auditory, or intellectual impairment, etc.",
+      "sponsor": "The Fourth Affiliated Hospital of Zhejiang University School of Medicine",
+      "enrollment": 100,
+      "start_date": "2024-08-24",
+      "completion_date": "2026-12-26",
+      "locations": [
+        {
+          "facility": "The Fourth Affiliated Hospital of Zhejiang University School of Medicine",
+          "city": "Yiwu",
+          "country": "China"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06458894",
+      "last_updated": "2025-02-17"
+    },
+    {
+      "nct_id": "NCT05578222",
+      "title": "Pembrolizumab as First-line Treatment for Advanced NSCLC Complicated With COPD",
+      "brief_summary": "This clinical trial aims to evaluate the efficacy and safety of pembrolizumab in the first-line treatment of advanced NSCLC complicated with COPD and its influence on the course of COPD, so as to provide prospective clinical evidence for immunotherapy of NSCLC complicated with COPD in China and to guide clinical application.",
+      "detailed_description": "This clinical study mainly includes 3 stages of screening, treatment and follow-up.\n\nPabolivizumab at a fixed dose of 200 mg intravenous infusion on day 1 for Q3W, continued to maintain administration for no more than 35 cycles, or until the imaging proves the early termination of PD or other protocols. Imaging evaluation is performed every 6 weeks within 6 months from the first dose of pabolizumab and approximately every 12 weeks thereafter until disease progression or early withdrawal. Conduct regular safety assessments, document changes in COPD condition, track adverse events until remission or stabilization, or restore baseline levels, or receive other anti-tumor therapy; Record the combined medications.\n\nMain research objectives:Evaluation of PFS in patients with advanced NSCLC and COPD treatment of pabolivizumab.\n\nSecondary research objectives:To assess the ORR and acute exacerbation rate (times/person/year) and adverse reactions of PABLIZUMAB in patients with advanced NSCLC with COPD.\n\nPurpose of exploratory research:The expression levels of PD-L1, CD4+ and CD8+ T lymphocytes in tumor tissues of patients with NSCLC and COPD before treatment were laboratory tested, and the correlation between different COPD grades and immune cell infiltration and efficacy was explored. This study was designed as a single-armed, single-center, prospective, phase II clinical study with 30 clinical, radiographic, pulmonary function and pathologically confirmed advanced (stage IV) NSCLC combined with COPD primary treatment subjects.",
+      "status": "UNKNOWN",
+      "phase": "PHASE2",
+      "conditions": [
+        "NSCLC With COPD"
+      ],
+      "interventions": [
+        {
+          "name": "Pembrolizumab",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Signed written informed consent before enrollment;\n2. Men and women aged 18-75;\n3. The patient must be able to provide fresh or archived tumor tissue and its pathology report;\n4. No previous antitumor therapy, life expectancy is not less than 12 weeks;\n5. Newly diagnosed NSCLC subjects confirmed by pathology and imaging; Stage: cT1-4N1-3M1 (stage \u2163), AJCC eighth edition clinical staging of lung cancer;\n6. Asymptomatic patients with NSCLC brain metastases\n7. PD-L1 tumor fraction (TPS) \u22651%;\n8. Epidermal growth factor receptor (EGFR) gene mutation negative and anaplastic lymphoma kinase (ALK) negative;\n9. Measurable lesions that meet RECIST v1.1 criteria;\n10. Patients with COPD who met the relevant diagnostic criteria for COPD in the Guidelines for the Diagnosis and Treatment of Chronic Obstructive Pulmonary Disease (Revised 2021) formulated by Chinese Society of Respiratory Medicine, and whose condition was stable for \u22652 weeks;\n11. ECOG PS: 0 \\~ 2;\n12. The functions of vital organs meet the following requirements (excluding the use of any blood components and cell growth factors within 14 days) :\n\n    Normal bone marrow reserve, neutrophil (ANC) \u22651,500/mm\u00b3, platelet count (PLT) \u2265100,000/mm\u00b3, hemoglobin (Hb) \u22655.6 mmol/L (9g/dL);Creatinine (Cr) \u22641.5 mg/d and/or Clearance of creatinine (CCr) \u226560 ml/min;Normal liver function or Total Bilirubin (TBIL) \u22641.5 ULN,Aspartate Transaminase (AST) and Alanine Transaminase (ALT) \u22641.5 ULN;\n13. Non-surgical sterilization or use of a medically approved contraceptive method (e.g. intrauterine device, birth control pill, or condom) during the study treatment period and for 3 months after the end of the study treatment period;Patients with non-surgical sterilization or women of childbearing age had to have a negative serum or urine HCG test within 7 days before study enrollment; must be non-lactation period;Male patients who are not surgically sterilized or of childbearing age are required to consent to use a medically approved contraceptive method with their spouse during the study treatment period and for 3 months after the study treatment period;\n14. Subjects volunteered to join this study, with good compliance, safety and survival follow-up.\n\nExclusion Criteria:\n\n1. Previous radiotherapy, chemotherapy, long-term or high-dose hormone therapy, surgery, or molecular targeted therapy;\n2. The subject has previous or concurrent other malignant tumors;\n3. History of asthma or other respiratory diseases (bronchiectasis, tuberculosis, interstitial pneumonia, occupational lung disease, sarcoidosis, etc.);Patients with objective evidence of radiation pneumonitis, drug-associated pneumonitis, or severe impairment of pulmonary function;\n4. History of lobectomy;\n5. A history of clinically significant circulatory failure;\n6. Significant contraindications for spirometry (history of myocardial infarction, cerebral artery or aortic aneurysm, history of eye surgery, hemoptysis);\n7. Patients with rheumatic diseases;Patients with heart, cerebrovascular, liver, kidney, hematopoietic system and other serious primary diseases.\n8. Patients with a history of acute gastrointestinal bleeding within 3 months;\n9. Previous immune checkpoint inhibitor therapy;The subject is known to have a previous allergy to macromolecular protein preparations, or to any PD-1 mab component;\n10. The subject has any active autoimmune disease or a history of autoimmune disease (e.g., but not limited to: autoimmune hepatitis, interstitial pneumonia, uveitis, enteritis, hepatitis, hypophysitis, vasculitis, nephritis, hyperthyroidism, hypothyroidism;Subjects with vitiligo or complete remission of asthma in childhood without any intervention as adults were included;Subjects with asthma requiring medical intervention with bronchodilators were excluded);\n11. The subject has active infection or unexplained fever \\>38.5 \u2103 during the screening period or before the first administration;\n12. Subjects with innate or acquired immune deficiency, such as HIV infection, or active hepatitis (transaminases did not meet the inclusion criteria, hepatitis B reference: HBV DNA\u226510\u2074/ml;HCV RNA\u226510\u00b3/ml);Chronic hepatitis B virus carriers, HBV DNA\u22652000 IU/ml (\u226510\u2074 copies/ml), must receive antiviral therapy during the trial to be enrolled;\n13. The subject is participating in another clinical study or it has been less than one month since the end of the previous clinical study;Subjects may receive other systemic antitumor therapy during the study;\n14. Receive live vaccine less than 4 weeks before or possibly during the study period;\n15. The subject cannot or does not agree to pay for the examination and treatment expenses at his own expense;\n16. Pregnant or lactating women;\n17. Other conditions that should be excluded from the study in the opinion of the investigator.",
+      "sponsor": "Tianjin Chest Hospital",
+      "enrollment": 30,
+      "start_date": "2022-10-10",
+      "completion_date": "2024-12-12",
+      "locations": [
+        {
+          "facility": "Tianjin Chest Hospital",
+          "city": "Tianjin",
+          "country": "China"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT05578222",
+      "last_updated": "2022-10-13"
+    },
+    {
+      "nct_id": "NCT07373951",
+      "title": "Retrospective Multicenter Study of Patient-level T1CE/FLAIR MRI Deep Learning to Predict EGFR/ALK Driver Status in NSCLC Brain Metastases With External Validation and Survival Analysis",
+      "brief_summary": "This retrospective multicenter observational study aims to develop and externally validate a noninvasive deep learning model based on routine brain MRI to identify actionable driver alterations in patients with non-small cell lung cancer (NSCLC) brain metastases. The model uses contrast-enhanced T1-weighted imaging (T1CE) and FLAIR sequences to classify patients as driver-positive (EGFR mutation and/or ALK rearrangement/fusion) versus driver-negative (EGFR-negative and ALK-negative), using brain metastasis tissue next-generation sequencing as the reference standard. The development and internal validation cohorts are from the National Cancer Center (China). Two independent external test cohorts are used: one from the First Affiliated Hospital of Anhui Medical University (China) and one from a public de-identified dataset hosted by The Cancer Imaging Archive (TCIA). The primary endpoint is the patient-level area under the receiver operating characteristic curve (AUC) in the external test cohorts. Secondary analyses include model calibration and decision-curve analysis to estimate clinical utility, comparisons of 2D/2.5D/3D modeling strategies and multimodal fusion approaches, and exploratory associations between model outputs and overall survival (OS) and progression-free survival (PFS), calculated from the date of brain metastasis surgery to the event or last follow-up (data cutoff: May 1, 2026).",
+      "detailed_description": "Rationale and Objectives Actionable driver alterations such as EGFR mutations and ALK rearrangements/fusions are key determinants of treatment selection in NSCLC. In patients with brain metastases, tissue acquisition may be limited by surgical risk, lesion location, and time constraints. Routine brain MRI provides rich phenotypic information that may capture imaging correlates of molecular drivers. This study is designed to develop and externally validate a patient-level deep learning model that leverages multimodal MRI (T1CE and FLAIR) to noninvasively identify driver-positive status (EGFR mutation and/or ALK rearrangement/fusion) versus driver-negative status (EGFR-negative and ALK-negative).\n\nStudy Design and Data Sources This is a retrospective multicenter observational cohort study. Model development (training and internal validation) will be performed using data from the National Cancer Center (China). External validation will be conducted in two independent cohorts: (1) a clinical cohort from the First Affiliated Hospital of Anhui Medical University (China) and (2) a public de-identified cohort obtained from The Cancer Imaging Archive (TCIA). The TCIA cohort is used as an independent test set and is not involved in model training, hyperparameter tuning, or threshold selection.\n\nReference Standard and Driver Definition Driver status will be determined by next-generation sequencing performed on resected brain metastasis tissue. Driver-positive is defined as EGFR mutation and/or ALK rearrangement/fusion detected on brain metastasis tissue testing. Driver-negative is defined as both EGFR-negative and ALK-negative.\n\nImaging Inputs and Preprocessing Eligible patients must have preoperative brain MRI including at minimum T1CE and FLAIR sequences with acceptable image quality. Imaging data will be de-identified and standardized for analysis. Preprocessing will include harmonized spatial resampling to a common voxel spacing, intensity normalization, and co-registration between modalities when needed. Lesion localization/segmentation will be performed using manual, semi-automated, or automated approaches with quality control by trained reviewers, depending on data availability. For patients with multiple brain metastases, lesion-level representations will be aggregated to produce a patient-level prediction using a predefined pooling strategy (e.g., attention pooling or multiple-instance learning).\n\nModel Development and External Validation The primary model will use multimodal inputs (T1CE + FLAIR) and a fusion strategy (including transformer-based fusion as a prespecified approach). Comparative analyses will evaluate 2D, 2.5D, and 3D modeling strategies and alternative fusion schemes (e.g., early vs late fusion) under a consistent evaluation framework. All model selection and threshold determination will be completed using the National Cancer Center development data. The finalized model and prespecified thresholds will then be locked and evaluated once in each external cohort without any additional training or recalibration.\n\nOutcomes and Statistical Analysis The primary endpoint is discrimination performance assessed by patient-level AUC in the external test cohorts, with 95% confidence intervals. Secondary endpoints include sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), calibration (calibration curves and Brier score), and decision-curve analysis to estimate net benefit across clinically relevant thresholds. Subgroup analyses may be performed by center, imaging acquisition characteristics, and single versus multiple metastases. In a subset with follow-up data, exploratory analyses will evaluate associations between model outputs and OS/PFS using Kaplan-Meier methods and Cox proportional hazards models. OS and PFS will be calculated from the date of brain metastasis surgery to death/progression or last follow-up; the data cutoff date is May 1, 2026.\n\nEthics and Privacy This study uses retrospective clinical data that will be de-identified prior to analysis. Institutional review board approval and/or waiver of informed consent will be obtained as required by participating institutions. The TCIA cohort consists of public de-identified data and does not involve direct participant contact.",
+      "status": "ENROLLING_BY_INVITATION",
+      "phase": null,
+      "conditions": [
+        "Non-Small Cell Lung Cancer",
+        "Brain Metastases"
+      ],
+      "interventions": [],
+      "eligibility_criteria": "Inclusion Criteria:\n\nAge \u2265 18 years at the time of brain metastasis surgery. Histologically confirmed non-small cell lung cancer (NSCLC). Brain metastasis treated with surgical resection (index date for survival analyses).\n\nPreoperative brain MRI is available, including, at minimum, contrast-enhanced T1-weighted imaging (T1CE) and FLAIR.\n\nEGFR and ALK status are available from next-generation sequencing (NCG/NGS) performed on resected brain metastasis tissue (+/-).\n\nMRI quality sufficient for analysis (adequate brain coverage and no severe artifacts).\n\nExclusion Criteria:\n\nMissing required MRI sequences (T1CE or FLAIR) or non-diagnostic image quality due to severe artifacts/motion.\n\nMissing or unverifiable molecular testing results for EGFR and/or ALK from brain metastasis tissue.\n\nUncertain primary tumor origin or non-NSCLC histology. Prior intracranial therapy that substantially alters lesion appearance before the index MRI and cannot be reliably ascertained or adjusted for (e.g., radiotherapy immediately before the MRI), as determined by study investigators.",
+      "sponsor": "Ming Yang",
+      "enrollment": 380,
+      "start_date": "2025-11-01",
+      "completion_date": "2026-05-01",
+      "locations": [
+        {
+          "facility": "National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College",
+          "city": "Beijing",
+          "country": "China"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07373951",
+      "last_updated": "2026-01-29"
+    },
+    {
+      "nct_id": "NCT04222972",
+      "title": "A Study of Pralsetinib Versus Standard of Care for First-Line Treatment of Advanced Non-Small Cell Lung Cancer (NSCLC)",
+      "brief_summary": "This is an international, randomized, open-label, Phase 3 study designed to evaluate whether the potent and selective RET inhibitor, pralsetinib, improves outcomes when compared to a platinum chemotherapy-based regimen chosen by the Investigator from a list of standard of care treatments, as measured primarily by progression free survival (PFS), for participants with RET fusion-positive metastatic NSCLC who have not previously received systemic anticancer therapy for metastatic disease.",
+      "detailed_description": "",
+      "status": "TERMINATED",
+      "phase": "PHASE3",
+      "conditions": [
+        "RET-fusion Non Small Cell Lung Cancer",
+        "Lung Neoplasm",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Respiratory Tract Neoplasms",
+        "Thoracic Neoplasms",
+        "Neoplasms by Site",
+        "Neoplasms",
+        "Lung Diseases",
+        "Respiratory Tract Disease",
+        "Carcinoma, Bronchogenic",
+        "Bronchial Diseases",
+        "Head and Neck Neoplasms",
+        "Adenocarcinoma",
+        "Carcinoma",
+        "Neoplasms by Histologic Type",
+        "Neoplasms, Germ Cell and Embryonal",
+        "Neoplasms, Nerve Tissue"
+      ],
+      "interventions": [
+        {
+          "name": "Pralsetinib",
+          "type": "DRUG"
+        },
+        {
+          "name": "Carboplatin",
+          "type": "DRUG"
+        },
+        {
+          "name": "Cisplatin",
+          "type": "DRUG"
+        },
+        {
+          "name": "Pemetrexed",
+          "type": "DRUG"
+        },
+        {
+          "name": "Pembrolizumab",
+          "type": "DRUG"
+        },
+        {
+          "name": "Gemcitabine",
+          "type": "DRUG"
+        },
+        {
+          "name": "Paclitaxel",
+          "type": "DRUG"
+        },
+        {
+          "name": "Nab-Paclitaxel",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "Inclusion criteria:\n\n* Participant has pathologically confirmed, definitively diagnosed, locally advanced (not able to be treated with surgery or radiotherapy) or metastatic NSCLC and has not been treated with systemic anticancer therapy for metastatic disease.\n* Participant must have a documented RET-fusion\n* Participant has measurable disease based on RECIST 1.1 as determined by the local site Investigator/radiology assessment.\n* Participant has an ECOG Performance Status of 0 or 1.\n* Participant should not have received any prior anticancer therapy for metastatic disease.\n\n  * Participants can have received previous anticancer therapy (except a selective RET inhibitor) in the neoadjuvant or adjuvant setting but must have experienced an interval of at least \u2265 6 months from completion of therapy to recurrence.\n  * Participants that received previous immune checkpoint inhibitors in the adjuvant or consolidation following chemoradiation are not allowed to receive pembrolizumab if randomized in Arm B\n* Participant is an appropriate candidate for and agrees to receive 1 of the Investigator choice platinum-based chemotherapy regimens if randomized to Arm B.\n* For women of childbearing potential: participants who agree to remain abstinent (refrain from heterosexual intercourse) or use contraception.\n* For men: participants who agree to remain abstinent (refrain from heterosexual intercourse) or use a condom and agree to refrain from donating sperm.\n\nExclusion criteria:\n\n* Participant's tumor has any additional known primary driver alterations other than RET, such as targetable mutations of EGFR, ALK, ROS1, MET, and BRAF. Investigators should discuss enrollment with Sponsor designee regarding co-mutations.\n* Participant previously received treatment with a selective RET inhibitor.\n* Participant received radiotherapy or radiosurgery to any site within 14 days before randomization or more than 30 Gy of radiotherapy to the lung in the 6 months before randomization.\n* Participant with a history of pneumonitis within the last 12 months.\n* Participant has CNS metastases or a primary CNS tumor that is associated with progressive neurological symptoms or requires increasing doses of corticosteroids to control the CNS disease. If a participant requires corticosteroids for management of CNS disease, the dose must have been stable for the 2 weeks before Cycle 1 Day 1.\n* Participant has had a history of another primary malignancy that has been diagnosed or required therapy within the past 3 years prior to randomization.",
+      "sponsor": "Hoffmann-La Roche",
+      "enrollment": 223,
+      "start_date": "2020-07-24",
+      "completion_date": "2025-01-27",
+      "locations": [
+        {
+          "facility": "Hospital Britanico",
+          "city": "Buenos Aires",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Centro Oncologico Riojano Integral (CORI)",
+          "city": "La Rioja",
+          "country": "Argentina"
+        },
+        {
+          "facility": "Royal North Shore Hospital",
+          "city": "St Leonards",
+          "country": "Australia"
+        },
+        {
+          "facility": "UZ Antwerpen",
+          "city": "Edegem",
+          "country": "Belgium"
+        },
+        {
+          "facility": "Hospital Sao Lucas - PUCRS",
+          "city": "Porto Alegre",
+          "country": "Brazil"
+        },
+        {
+          "facility": "Hospital A. C. Camargo",
+          "city": "S\u00e3o Paulo",
+          "country": "Brazil"
+        },
+        {
+          "facility": "Clinica CIMCA",
+          "city": "San Jos\u00e9",
+          "country": "Costa Rica"
+        },
+        {
+          "facility": "Institut Bergonie CLCC Bordeaux",
+          "city": "Bordeaux",
+          "country": "France"
+        },
+        {
+          "facility": "H\u00f4pital Ambroise Par\u00e9 - Boulogne-Billancourt",
+          "city": "Boulogne-Billancourt",
+          "country": "France"
+        },
+        {
+          "facility": "H\u00f4pital Louis Pradel, Hospices Civils de Lyon",
+          "city": "Bron",
+          "country": "France"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT04222972",
+      "last_updated": "2026-03-05"
+    },
+    {
+      "nct_id": "NCT02686775",
+      "title": "The PACO Project: A Clinical Study of a PAtient COach Program in Vulnerable Lung Cancer Patients",
+      "brief_summary": "The randomized trial evaluates whether assigning a patient coach to vulnerable lung cancer patients will empower these patients to participate in the treatment decision process, help patients navigate the health care system while undergoing treatment and adhere to cancer treatment and to recommendations for supportive care. Half of the participants will receive standard care and be offered a patient coach while the other half will receive standard care.",
+      "detailed_description": "Having short education or living without a partner negatively influences lung cancer survival and low social position has been associated with higher risk of advanced stage of the lung cancer at diagnosis. Disparities exists in both curative and palliative intended treatment, even adjusted for performance status and comorbidity. Differences in stage, treatment and comorbidity at diagnosis explain most of the social inequality in lung cancer survival. Age disparities in favor of younger lung cancer patients has also been found in several studies showing that older patients do not receive the most optimal treatment although age by itself do not worsen efficacy or tolerance to combined induction and definitive treatment, radiation therapy or concurrent chemoradiation. Taken together these findings indicate that in order to reduce social inequality in lung cancer survival not only early detection should be improved but also efforts to ensure optimal treatment among lung cancer patients of low social position are needed. Survival observed in the most advantaged group of lung cancer patients should set the target for what is achievable for all lung cancer patients in Denmark.\n\nIn the present intervention the investigators bring navigation together with activation as a longitudinal intervention by assigning a patient coach to vulnerable lung cancer patients while undergoing treatment. The patient coach function will address patient barrier factors, provider factors and organizational factors through providing social support, practical assistance and linking with health personnel, which are the three main principles guiding the coach intervention. The intervention will target specific phases in the treatment trajectory, which include challenges to compliance: into treatment, maintaining treatment and finalizing treatment. The investigators will use patient coaches who are volunteers with health education to provide a support function that is affiliated to the patient. The investigators believe that assistance with navigating the system, communication with health staff and social support across care transitions will help patients to obtain best possible care Primary aim: optimal treatment depending on stage, histology and performance status Secondary aims: quality of life and symptoms, participation in self-management plans as smoking cessation, physical activity, dietary changes, and short-term survival.\n\nThe investigators expect that compared to the usual care group the intervention group will initiate and adhere more to optimal treatment according to stage and performance status. Further, compared to the usual care group the intervention group will report better quality of life, less symptoms related to disease and treatment, higher level of adherence to recommendations for smoking, diet and exercise and better survival.",
+      "status": "UNKNOWN",
+      "phase": "NA",
+      "conditions": [
+        "Lung Cancer",
+        "Social Inequality"
+      ],
+      "interventions": [
+        {
+          "name": "Patient coach",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "name": "Standard care",
+          "type": "BEHAVIORAL"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosed with non-small cell lung cancer or small cell lung cancer\n* Referred for further treatment at the oncology ward OR\n* Must either 1) Live alone (irrespective of education) or 2) Have no formal education beyond secondary school, or 3) Have one or more comorbidities, or 4) a performance status of 1-2, or 5) be more than 65 years old at time of inclusion.\n\nExclusion Criteria:\n\n* Dementia\n* Being institutionalized\n* No proficiency of Danish",
+      "sponsor": "Danish Cancer Society",
+      "enrollment": 306,
+      "start_date": "2016-01",
+      "completion_date": "2018-10",
+      "locations": [
+        {
+          "facility": "Department of Oncology, Herlev Hospital",
+          "city": "Herlev",
+          "country": "Denmark"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02686775",
+      "last_updated": "2016-02-22"
+    },
+    {
+      "nct_id": "NCT04836975",
+      "title": "Reveal the Patterns of Presentation, Management and Outcome of Patients With SCLC and Stage III NSCLC in Saudi Arabia:",
+      "brief_summary": "A retrospective, multi-centre, observational study to describe the treatment patterns, the demographic, clinical outcomes, treatment effectiveness, and healthcare resource utilization (HCRU) for patients diagnosed with primary Small Cell Lung Cancer SCLC (Extensive stage \\& Limited Stage)and stage III NSCLC in a real-world setting.",
+      "detailed_description": "A retrospective, multi-centre, observational study to describe the treatment patterns, the demographic, clinical outcomes, treatment effectiveness, and healthcare resource utilization (HCRU) for patients diagnosed with primary Small Cell Lung Cancer SCLC (Extensive stage \\& Limited Stage)and stage III NSCLC in a real-world setting\n\nCohort of patients diagnosed with primary SCLC (limited or extensive stage) or stage III NSCLC, aims to characterize the treatment patterns from the index date (defined as the date of initial diagnosis of locally advanced stage III NSCLC and SCLC) to the end of follow-up (defined as the earliest of death, last available medical record or end of the observation period \"defined as the date of data abstraction\") including the type of treatment received, duration of each treatment regimen, and reasons for stopping treatment regimen.\n\nThe study population will be identified by participating physicians involved in the diagnosis, treatment and management of these patients through the review of established patient medical records. Eligible patients (both alive and deceased) will have their data anonymously abstracted from their medical records into a centrally designed electronic case report form (eCRF).",
+      "status": "COMPLETED",
+      "phase": null,
+      "conditions": [
+        "Lung Cancer"
+      ],
+      "interventions": [],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* 1\\. Adult male or female (\u226518 years old or according to the age of majority as defined by local regulations).\n\n  2\\. First-ever diagnosis of lung cancer (absence of previous diagnosis of lung cancer, including SCLC and NSCLC) in the patient's medical records.\n\n  3\\. Patients either diagnosed with a primary diagnosis of SCLC (extensive or limited) or stage III NSCLC, confirmed by pathology, between 1st of January 2015 and 31st of December 2019.\n\n  4\\. Medical records available at the participating site reflect at least nine months of follow-up from the index date (unless the patient died within the first nine months of diagnosis)\n\nExclusion Criteria:\n\n* 1\\. Patients with concomitant cancer at the time of diagnosis other than SCLC or stage III NSCLC, except for non-metastatic non-melanoma skin cancers, or in situ or benign neoplasms. Cancer will be considered concomitant if it occurs within five years of NSCLC or SCLC diagnosis 2. Patients initially diagnosed with stage I to II NSCLC who have progressed to stage III 3. Current or prior use of \"Durvalumab\" treatment",
+      "sponsor": "AstraZeneca",
+      "enrollment": 45,
+      "start_date": "2022-02-28",
+      "completion_date": "2022-12-30",
+      "locations": [
+        {
+          "facility": "Research Site",
+          "city": "Riyadh",
+          "country": "Saudi Arabia"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT04836975",
+      "last_updated": "2024-01-18"
+    },
+    {
+      "nct_id": "NCT00062101",
+      "title": "Erlotinib and Celecoxib in Treating Patients With Stage IIIB or Stage IV Recurrent Non-Small Cell Lung Cancer",
+      "brief_summary": "This phase II trial is studying how well giving erlotinib together with celecoxib works in treating patients with recurrent stage IIIB or stage IV non-small cell lung cancer. Erlotinib and celecoxib may stop the growth of tumor cells by blocking the enzymes necessary for tumor cell growth. Celecoxib may slow the growth of a tumor by stopping blood flow to the tumor. Combining erlotinib with celecoxib may kill more tumor cells.\n\n.",
+      "detailed_description": "PRIMARY OBJECTIVES:\n\nI. Determine the response rate of patients with stage IIIB or IV recurrent non-small cell lung cancer treated with erlotinib and celecoxib as second-line therapy.\n\nSECONDARY OBJECTIVES:\n\nI. Determine the time to progression in patients treated with this regimen. II. Determine the survival duration of patients treated with this regimen. III. Determine the toxicity of this regimen in these patients. IV. Correlate the expression of epidermal growth factor receptor and cyclooxygenase-2 in tumor specimens with response, time to progression, and survival in patients treated with this regimen.\n\nOUTLINE: Patients are assigned to 1 of 2 treatment groups.\n\nGroup 1: Patients receive oral erlotinib once daily and oral celecoxib twice daily.\n\nGroup 2: Patients receive erlotinib as in group 1.\n\nTreatment in both groups continues in the absence of disease progression or unacceptable toxicity.\n\nPatients are followed every 2 months.\n\nPROJECTED ACCRUAL: A total of 40-80 patients will be accrued for this study within 10 months.",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Recurrent Non-small Cell Lung Cancer",
+        "Stage IIIB Non-small Cell Lung Cancer",
+        "Stage IV Non-small Cell Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "name": "erlotinib hydrochloride",
+          "type": "DRUG"
+        },
+        {
+          "name": "celecoxib",
+          "type": "DRUG"
+        },
+        {
+          "name": "laboratory biomarker analysis",
+          "type": "OTHER"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed non-small cell lung cancer\n\n  * Stage IIIB (malignant pleural effusion only) or IV\n* Recurrent disease that has progressed after 1 or 2 prior chemotherapy regimens (platinum- or nonplatinum-based)\n* At least 1 unidimensionally measurable lesion\\*\n\n  * At least 20 mm by conventional techniques OR at least 10 mm by spiral CT scan\n* Must have tissue specimen available for assays\n* No brain metastases\n* Performance status - ECOG 0-2\n* Performance status - Karnofsky 60-100%\n* More than 3 months\n* WBC at least 3,000/mm\\^3\n* Absolute neutrophil count at least 1,500/mm\\^3\n* Platelet count at least 100,000/mm\\^3\n* Bilirubin normal\n* AST/ALT no greater than 2.5 times upper normal limit (ULN)\n* Creatinine normal\n* Creatinine clearance at least 60 mL/min\n* No symptomatic congestive heart failure\n* No unstable angina pectoris\n* No cardiac arrhythmia\n* No prior abnormalities of the cornea (e.g., dry eye syndrome or Sj\u00f6gren's syndrome)\n* No congenital abnormality (e.g., Fuch's dystrophy)\n* No abnormal slit-lamp examination using a vital dye (e.g., fluorescein or Bengal-Rose)\n* No abnormal corneal sensitivity test (e.g., Schirmer test or similar tear production test)\n* Able to ingest oral medication\n* No requirement for IV alimentation\n* No history of peptic ulcer disease\n* No active gastrointestinal ulcers\n* Not pregnant or nursing\n* Negative pregnancy test\n* Fertile patients must use effective contraception\n* No other concurrent uncontrolled illness\n* No ongoing or active infection\n* No significant traumatic injury within the past 21 days\n* No psychiatric illness or social situation that would preclude study compliance\n* No prior allergic reactions to sulfonamides, aspirin, and other nonsteroidal anti-inflammatory drugs\n* No prior monoclonal antibodies to epidermal growth factor receptor (EGFR)\n* More than 4 weeks since prior chemotherapy (6 weeks for nitrosoureas or mitomycin) and recovered\n* No concurrent chemotherapy\n* No concurrent glucocorticoids\n* More than 4 weeks since prior radiotherapy and recovered\n* More than 21 days since prior major surgery\n* No prior surgery affecting absorption\n* No prior EGFR-specific tyrosine kinases\n* No concurrent anticonvulsants\n* No other concurrent investigational agents\n* No concurrent antiretroviral therapy for HIV-positive patients\n* No concurrent antacids\n* No concurrent administration of any of the following drugs:\n\n  * Amiodarone\n  * Chloramphenicol\n  * Cimetidine\n  * Fluvoxamine\n  * Omeprazole\n  * Zafirlukast\n  * Clopidogrel\n  * Cotrimoxazole\n  * Disulfiram\n  * Fluconazole\n  * Fluoxetine\n  * Fluvastatin\n  * Fluvoxamine\n  * Isoniazid\n  * Itraconazole\n  * Ketoconazole\n  * Leflunomide\n  * Metronidazole\n  * Modafinil\n  * Paroxetine\n  * Phenylbutazone\n  * Sertraline\n  * Ticlopidine\n  * Valproic acid",
+      "sponsor": "National Cancer Institute (NCI)",
+      "enrollment": 80,
+      "start_date": "2004-01",
+      "completion_date": "",
+      "locations": [
+        {
+          "facility": "Rush University Medical Center",
+          "city": "Chicago",
+          "country": "United States"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT00062101",
+      "last_updated": "2013-06-06"
+    },
+    {
+      "nct_id": "NCT00104728",
+      "title": "Neoadjuvant IRESSA As Single Agent PreopTherapy for NSCLC With Molecular Correlates",
+      "brief_summary": "RATIONALE: Gefitinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Giving gefitinib before surgery may shrink the tumor so it can be removed.\n\nPURPOSE: This phase II trial is studying how well gefitinib works in treating patients who are undergoing surgery for stage I, stage II, or stage III non-small cell lung cancer.",
+      "detailed_description": "OBJECTIVES:\n\nPrimary\n\n* Determine the effects of neoadjuvant gefitinib on downstream signaling pathways, including Src-Stat3, PI3K/Akt, ERK activity, and Bcl-2 family members in patients with resectable stage I-IIIA non-small cell lung cancer.\n* Determine the effects of this drug on cell cycle and apoptosis within the primary tumor, by measuring changes in pre- and post-treatment Ki-67, Mcm2, cleaved caspase-3, and ApoTag, in these patients.\n\nSecondary\n\n* Determine the clinical response rate in patients treated with this drug.\n* Determine the pathological response rate, defined as \\> 95% necrosis or fibrosis in the pathological specimen, in patients treated with this drug.\n* Determine the metabolic activity of this drug in these patients.\n* Determine the safety, tolerability, and feasibility of this drug, in terms of toxicity and post-treatment resectability, in these patients.\n* Correlate plasma and tumor concentrations of this drug with changes in post-treatment molecular markers in these patients.\n* Identify a gene profile that predicts response to this drug in these patients.\n\nOUTLINE: This is an open-label, pilot study.\n\nPatients receive oral gefitinib once daily for 4 weeks in the absence of disease progression or unacceptable toxicity.\n\nWithin 3 days after completion of gefitinib, patients undergo restaging evaluation. Patients whose disease is still considered resectable proceed to surgery. Patients undergo thoracotomy with lobectomy or pneumonectomy OR sleeve resection. Patients also undergo mediastinal lymph node dissection. After surgical resection, treatment with gefitinib may continue off study at the discretion of the principal investigator.\n\nAfter completion of study therapy, patients are followed at 30 days, every 4 months for 1 year, every 6 months for 1 year, and then annually thereafter.\n\nPROJECTED ACCRUAL: A total of 50 patients will be accrued for this study within 12.5 months.",
+      "status": "TERMINATED",
+      "phase": "NA",
+      "conditions": [
+        "Lung Cancer"
+      ],
+      "interventions": [
+        {
+          "name": "ZD1839",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "DISEASE CHARACTERISTICS:\n\n* Histologically confirmed resectable non-small cell lung cancer (NSCLC), meeting 1 of the following clinical staging criteria:\n\n  * Stage IA or IB (T1-2, N0)\n  * Stage II (T1-2, N1 with negative mediastinoscopy or T3, N0)\n  * Stage IIIA (T3, N1 with negative mediastinoscopy)\n\n    * Level 10 hilar nodes may be positive provided mediastinoscopy is negative\n* The following are not allowed (as evidenced by clinical staging criteria \\[CT scan, positron-emission tomography (PET) scan, or mediastinoscopy):\n\n  * Positive N2 lymph nodes (ipsilateral/subcarinal mediastinal lymph nodes)\n  * Positive N3 lymph nodes (contralateral mediastinal/hilar and supraclavicular/scalene lymph nodes)\n  * T4 primary tumor (malignant pleural effusion or mediastinal invasion)\n  * Symptomatic tumors (T3, N0-1) involving the superior sulcus (i.e., Pancoast tumors)\n* Measurable disease by contrast-enhanced CT scan\n* No metastatic disease (except peribronchial or hilar lymph node involvement \\[N1\\]) by fludeoxyglucose F 18 PET scan\n* No malignant pleural effusion by preoperative evaluation\n\n  * Pleural effusions visible only on CT scan that are not large enough for safe thoracentesis are allowed\n  * No exudative effusions (even if cytologically negative), as evidenced by any of the following:\n\n    * Ratio of pleural fluid protein to serum protein \\> 0.5\n    * Ratio of pleural fluid lactic dehydrogenase (LDH) to serum LDH \u2265 0.6\n    * Pleural fluid LDH \\> 200 IU/L\n* No superior vena cava syndrome\n* No spinal cord compression\n\nPATIENT CHARACTERISTICS:\n\nAge\n\n* 18 and over\n\nPerformance status\n\n* Eastern Cooperative Oncology Group (ECOG) 0-1\n\nLife expectancy\n\n* Not specified\n\nHematopoietic\n\n* WBC \u2265 4,000/mm\\^3\n* Absolute granulocyte count \u2265 1,500/mm\\^3\n* Platelet count \u2265 100,000/mm\\^3\n\nHepatic\n\n* Bilirubin \u2264 1.5 times upper limit of normal (ULN)\n* AST or ALT \u2264 2 times ULN\n* Alkaline phosphatase \u2264 2 times ULN\n\nRenal\n\n* Creatinine \\< 1.5 times ULN\n\nCardiovascular\n\n* No uncontrolled ventricular arrhythmia\n* No myocardial infarction within the past 3 months\n\nPulmonary\n\n* Pre-resection FEV\\_1 \\> 2.0 L OR\n* Predicted post-resection FEV\\_1 \\> 1.0 L\n* No clinically active interstitial lung disease\n\n  * Chronic stable asymptomatic radiographic changes allowed\n* No post-obstructive pneumonia\n\nOther\n\n* Not pregnant or nursing\n* Negative pregnancy test\n* Fertile patients must use effective contraception\n* Willing to provide tumor biopsy pre- and post-gefitinib administration AND undergo PET scan\n* No known severe hypersensitivity to study drug or any of its excipients\n* No uncontrolled major seizure disorder\n* No unstable or uncontrolled diabetes mellitus\n* No serious infection requiring IV antibiotics\n* No grade 3 neuropathy\n* No other malignancy within the past 5 years except adequately treated basal cell or squamous cell skin cancer or carcinoma in situ of the cervix\n* No other unstable or serious medical condition that would preclude study treatment or surgery\n* No psychiatric disorder that would preclude giving informed consent\n* No psychological, familial, sociological, or geographical condition that would preclude study compliance and follow up\n* No other significant clinical disorder or laboratory finding that would preclude study participation\n\nPRIOR CONCURRENT THERAPY:\n\nBiologic therapy\n\n* Not specified\n\nChemotherapy\n\n* No prior or concurrent systemic chemotherapy for NSCLC\n\nEndocrine therapy\n\n* Not specified\n\nRadiotherapy\n\n* No prior or concurrent radiotherapy for NSCLC\n\nSurgery\n\n* Recovered from prior oncologic or other major surgery\n* At least 5 years since prior resection of lung disease\n* No prior surgery for NSCLC\n* No concurrent ophthalmic surgery\n\nOther\n\n* More than 30 days since prior non-approved or investigational drugs\n* No other concurrent therapy for NSCLC\n* No other concurrent investigational therapy\n* No concurrent use of any of the following medications:\n\n  * Phenytoin\n  * Carbamazepine\n  * Barbiturates (e.g., phenobarbital)\n  * Rifampin\n  * Hypericum perforatum (St. John's wort)",
+      "sponsor": "H. Lee Moffitt Cancer Center and Research Institute",
+      "enrollment": 42,
+      "start_date": "2004-10",
+      "completion_date": "2009-03",
+      "locations": [
+        {
+          "facility": "H. Lee Moffitt Cancer Center and Research Institute",
+          "city": "Tampa",
+          "country": "United States"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT00104728",
+      "last_updated": "2012-10-31"
+    },
+    {
+      "nct_id": "NCT03684486",
+      "title": "Rehabilitation by Effort for Patients With Advanced Bronchial Cancer",
+      "brief_summary": "Bronchopulmonary cancers or mesothelioma are associated with effort deconditioning due to pathology (chronic inflammation) and also to treatments (surgery, radiotherapy, chemotherapy); it's considerably alters patients quality of life.\n\nInvestigators want to ensured the feasibility of rehabilitation by effort for these patients.",
+      "detailed_description": "",
+      "status": "TERMINATED",
+      "phase": "NA",
+      "conditions": [
+        "Bronchial Cancer",
+        "Malignant Mesothelioma"
+      ],
+      "interventions": [
+        {
+          "name": "rehabilitation by effort",
+          "type": "BEHAVIORAL"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* General condition according to World Health Organisation 0-1\n* Age between 18 and 70 years old\n* Non progressive patients according to RECIST criteria 1.1 after chemotherapy treatment whichever line of treatment\n* Autonomous patient\n* Voluntary written informed consent signed\n* Patients with social security insurance\n\nExclusion Criteria:\n\n* Bone metastasis with fracture risk\n* Significant cardiovascular pathology\n* Cardiac, vascular, rheumatologic or neurologic contraindication\n* Patients living far 60 kms from Toulouse\n* Patients under juridical protection guardianship, or tutelage measure",
+      "sponsor": "University Hospital, Toulouse",
+      "enrollment": 19,
+      "start_date": "2012-02-01",
+      "completion_date": "2019-07-24",
+      "locations": [
+        {
+          "facility": "CHU de Toulouse",
+          "city": "Toulouse",
+          "country": "France"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03684486",
+      "last_updated": "2026-05-06"
+    },
+    {
+      "nct_id": "NCT03470961",
+      "title": "Observational Study to Evaluate the Safety and Efficacy of Polyclonal Antibodies in Simultaneous Pancreas Kidney Transplant Recipients",
+      "brief_summary": "A single-centre, prospective, observational study to evaluate the safety and efficacy of Polyclonal Antibodies in simultaneous Pancreas Kidney Transplant recipients.",
+      "detailed_description": "Polyclonal antibody mainly contains Antit-Tlymphocyte globulins(Grafalon) and Anti-thymocyte globulins(ATG). To investigate the efficacy and safety of polyclonal antibodies induction regimen using Grafalon compared with ATG in de novo simultaneous pancreas kidney transplant recipients. The primary analysis of this study is to demonstrate the non-inferiority of the two regimens with regard to efficacy, defined as failure rate.\n\nThe secondary objective of the study is the assessment of safety and further efficacy parameters in terms of incidence of acute rejections, graft/patient survival, DGF(delayed graft function), pancreas function and renal function",
+      "status": "UNKNOWN",
+      "phase": "PHASE4",
+      "conditions": [
+        "CKD (Chronic Kidney Disease) Stage 5T",
+        "Diabetes Mellitus",
+        "Simultaneous Pancreas Kidney Transplantation"
+      ],
+      "interventions": [
+        {
+          "name": "Anti-Tlymphocyte Globulins",
+          "type": "DRUG"
+        },
+        {
+          "name": "Anti-Thymocyte Globulins",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. with end-stage,diabetic nephropathy(type1or 2)\n2. Patients scheduled to undergo SPK with compatible ABO blood type.\n3. Peak PRA \\<50%\n4. Females of childbearing potential must have a negative pregnancy test within 48hrs prior to randomization and reliable methods of contraception should be started 4 weeks prior to and during the whole study.\n5. Patient must have signed the Patient Informed Consent Form.\n6. Patient must receive a primary simultaneous pancreas/kidney (SPK) cadaveric transplant, with either intestinal or bladder and either portal or systemic venous drainages.\n\nExclusion Criteria:\n\n1. Patient is pregnant or breastfeeding.\n2. Patient has a positive T-cell crossmatch on the most recent serum specimen.\n3. Patient is known for active liver disease or has significant liver disease, defined by ASAT and ALAT serum levels greater than 3 times the upper limit of normal.\n4. Patient has malignancy or history of malignancy, with the exception of adequately treated localised squamous cell or basal cell carcinoma, without recurrence.\n5. Patient has been included in another clinical trial protocol for any investigational drug within 4 weeks prior to randomisation.\n6. Patient has any form of substance abuse, psychiatric disorder or condition, which, in the opinion of the investigator, may invalidate communication.\n7. Patient receives a SPK transplant from a living donor, or receives segmental pancreatic transplant, or a previous kidney transplant alone.\n8. Donor is older than 55 years of age\n9. patients with bacterial, viral or mycotic infections which are not under therapeutically control",
+      "sponsor": "Tianjin First Central Hospital",
+      "enrollment": 45,
+      "start_date": "2018-03-01",
+      "completion_date": "2021-03-01",
+      "locations": [
+        {
+          "facility": "Tianjin First central hospital",
+          "city": "Tianjin",
+          "country": "China"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT03470961",
+      "last_updated": "2018-03-20"
+    },
+    {
+      "nct_id": "NCT04838561",
+      "title": "Assessing the Impact of Control-IQ Technology",
+      "brief_summary": "This is a single-centre, mixed-methods, prospective study in pediatric patients with T1D initiating Control-IQ technology on the Tandem t-slim X2 insulin pump.\n\nPrimary Objective:\n\nTo determine pediatric T1D patients' and their parents' perceptions of the impact of Control-IQ on their psychosocial functioning and quality of life.",
+      "detailed_description": "Background Information \\& Rationale\n\nThe management of type 1 diabetes (T1D) is rapidly evolving to offer technology that aims to improve metabolic control and decrease the burden of diabetes management. Hybrid-closed loop systems are at the forefront of this technology. They are comprised of an insulin pump and continuous glucose monitoring (CGM) system that interface in order to automatically adjust the delivery of basal insulin through the pump, based on CGM data. Insulin boluses for meals and snacks must still be entered manually by the user.\n\nStudies of hybrid closed loop systems have primarily focused on clinical trials that show improved glycemic outcomes.1-3 Few studies have assessed real-world glycemic outcomes or patient-reported outcomes, and none have focused on a pediatric population.\n\nA recent study published by Pinsker et al.4 showed improvement in psychosocial outcomes and persistent achievement of glycemic targets in a real-world setting in adults with T1D using the Tandem t:slim X2 pump with Control-IQ technology.\n\nThe Tandem t:slim X2 pump with Control-IQ is a hybrid closed loop system (using Dexcom G6 CGM) that has recently been approved for use by Health Canada, but has been used in the U.S. for the last year. This new technology will launch in Canada in March 2021, at which time existing Tandem t:slim X2 insulin pump users (with concurrent CGM use) will be able to upgrade their insulin pump software to access this technology (following review of an online module).\n\nThe Children's Hospital of Eastern Ontario (CHEO), is located in Ottawa, ON Canada. CHEO follows approximately 800 children with diabetes, approximately 85 of whom are managed on the Tandem t:slim X2 pump with concurrent Dexcom G6 CGM use.\n\nThe upcoming launch of Control-IQ presents a unique opportunity to gain a better understanding of the real-world impact of this technology on our Canadian pediatric population. The benefits of conducting this study in our population are two-fold:\n\n1. The Canadian context offers the study a diverse patient population given our universal healthcare system and provincially-funded insulin pump program. Because pumps and supplies are funded by the government, they are available to all of our patients, regardless of socio-economic status and whether or not they have private health insurance.\n2. Studying a pediatric population offers the unique perspective of children and youth (and their parents) whose management practices and goals differ from those of adults. While adult patients and parents of children with T1D are motivated by attaining glycemic targets for long term health outcomes, children and youth live in moment with emphasis on how they feel now. As such, patient reported outcomes, while important to all ages, are often the most important motivator for children and youth when choosing a treatment regimen.\n\nStudy Design This is a single-centre, mixed-methods, prospective study in pediatric patients with T1D initiating Control-IQ technology on the Tandem t-slim X2 insulin pump.\n\nParticipants will enroll in the study prior to initiating use of Control-IQ on their Tandem insulin pump.\n\nRecruitment will occur over an eight-week period starting mid-March 2021. Participation in this study will last 16 weeks.\n\nStudy Objectives\n\nPrimary Objective: To determine pediatric T1D patients' and their parents' perceptions of the impact of Control-IQ on their psychosocial functioning and quality of life (as measured by the INSPIRE Questionnaire, post assessment).\n\nSecondary Objectives:\n\n1. To assess the effect of Control-IQ technology on other patient and parent reported outcomes (PROs) including:\n\n   * Diabetes Impact and Device Satisfaction (DIDS) scale,\n   * Hypoglycemia Fear Survey (child and parent version),\n   * WHO-5 (emotional well-being)\n2. To determine the impact of Control-IQ technology on glycemic control in pediatric T1D patients who are experienced sensor-augmented pump users.\n\nExploratory Objectives:\n\n1. To explore the effect of Control-IQ technology on patient and parents' sleep, school, activities/ sports, mood and family dynamics.\n2. To explore whether or not youth and parents' expectations of Control-IQ align with their experience of using this this automated insulin delivery system.\n\nParticipant Characteristics:\n\nThe following data will be collected from each chart at baseline:\n\n* Date of birth\n* Gender\n* Date of T1D diagnosis\n* Date of initiation of insulin pump therapy\n\n  * Date of first insulin pump start\n  * Date of Tandem t:slim X2 pump start\n* Current use of CGM (yes/ no)\n* Last measured HbA1c ( if available within the last 3 months\n* Number of hospitalizations due to diabetes complications within the past year\n\nSociodemographic measures will be collected by questionnaire at baseline, including:\n\n* Family structure\n* Parental education - highest level achieved\n* Household income\n* Private health insurance\n* Ethnicity (self-reported)\n\nStatistical Plan The patient population will be described using descriptive statistics. The study team will compare patient reported outcomes, measures of glycemic control, and measures of insulin pump management pre and 16 weeks post-initiation of Control-IQ technology, using paired t-test and Wilcoxon signed-rank test, depending on the distributional characteristics of the outcomes. Analysis of open-ended questions will be done by a qualitative research specialist.\n\nSample Size Determination CHEO currently has 85 patients on the Tandem t:slim X2 pump with CGM, with an estimated 10-15 patients more estimated to start before March 2021. Historically, the patient population at CHEO has been highly engaged with research with an anticipated participation rate of 90-95%. The Investigator expects that recruitment rates would be similar for this study, allowing for a sample size of 70 participants.\n\nThis sample size is sufficient to provide \\> 80% power for detecting a \"medium size\" effect (Cohen's d = 0.5), which corresponds to a mean score of 70 from the post assessment INSPIRE Questionnaire, 10 units larger than a mean score of 60 (the null hypothesis). Cohen's d is expressed by the ratio of the mean difference over the standard deviation. Here, we use sd = 20 as an estimate of the standard deviation of the score, which is conservative considering previously presented estimates (e.g. sd = 16.44 described in Weissberg-Benchell et al \\[5\\]).",
+      "status": "COMPLETED",
+      "phase": null,
+      "conditions": [
+        "Type 1 Diabetes"
+      ],
+      "interventions": [],
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Diagnosis of T1D\n2. Age 6-18 years\n3. Currently using the Tandem t:slim X2 insulin pump with Dexcom G6 CGM, who are initiating Control-IQ\n\nExclusion Criteria:\n\n1. Patients under the age of 6 years of age\n2. Patients who are not English or French speaking\n3. Patients unwilling to provide consent (assent where applicable).",
+      "sponsor": "Children's Hospital of Eastern Ontario",
+      "enrollment": 65,
+      "start_date": "2021-03-15",
+      "completion_date": "2021-10-26",
+      "locations": [
+        {
+          "facility": "Children's Hospital of Eastern Ontario",
+          "city": "Ottawa",
+          "country": "Canada"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT04838561",
+      "last_updated": "2022-01-21"
+    },
+    {
+      "nct_id": "NCT04200586",
+      "title": "The Effects of SGLTi on Diabetic Cardiomyopathy",
+      "brief_summary": "Diabetic cardiomyopathy is associated with significant morbidity and mortality. It is considered as a cardiac muscle disorder secondary to diabetes mellitus (DM). Certain studies show the clinical benefit of SGLT-s inhibitors on reducing cardiovascular outcomes amongst patients with type II DM that go beyond the correction of hyperglycemic perse. Thus an observational imaging study is proposed to identify mechanistic insights of the drug group over cardiovascular events.",
+      "detailed_description": "Diabetic cardiomyopathy is defined as ventricular dysfunction in diabetic patients in the absence of coronary artery disease and hypertension. It is considered as a cardiac muscle disorder due to the metabolic consequences of DM characterized by left ventricular hypertrophy, left ventricular diastolic dysfunction (in the early stage), and/or systolic dysfunction. To date, there is no specific treatment proven effective for the condition due to the incomplete understanding of the pathogenesis.\n\nRecent studies however prove the efficacy of SGLT-2 inhibitors on reducing the primary composite end point of cardiovascular outcomes including hospitalization for heart failure, cardiovascular death, and all-cause death amongst patients with type II DM. Such clinical benefit is apparently mainly stemmed from the reduction in heart failure related mortality and sudden cardiac death rather than the macro-vascular events such as myocardial infarct and stroke, suggesting addition benefits going beyond the correction of hyperglycemia perse. These studies thus raise the possibility that the drug may have direct effects on the myocardium that conferring the clinical benefit not related the modification of traditional risk factors such as glycemic control, lipid, blood pressure, and obesity.\n\nA single-arm, observational cardiac magnetic resonance imaging study is proposed in type II diabetic patients before and 2 months after initiation of dapagliflozin. The aim is to identify mechanistic insights leading to the unexpected clinical benefit of SGLT inhibition.",
+      "status": "UNKNOWN",
+      "phase": "PHASE4",
+      "conditions": [
+        "Type2 Diabetes",
+        "Heart Failure With Reduced Ejection Fraction"
+      ],
+      "interventions": [
+        {
+          "name": "Dapagliflozin",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* type 2 diabetes\n* 40-90 years old\n* HbA1c \\>= 6.5%\n* history of heart failure with reduced ejection fraction\n* indications for SGLT inhibition on clinical ground\n\nExclusion Criteria:\n\n* angina pectoris or chest discomfort\n* prior coronary artery bypass grafts\n* coronary artery stenting within 6 months of study enrolment\n* pervious myocardial infarct\n* any contraindication for stress CMR testing\n* renal impairment with eGFR \\<45ml/min/1.73m2\n* limited life expectancy \\<5 years, for example due to pulmonary disease, cancer or\n* significant hepatic failure\n* contraindication to dapagliflozin or other SGLT2 inhibitors\n* unable to take dapagliflozin\n* patients currently on and SGLT2 inhibitor\n* planned need for concomitant cardiac surgery or coronary intervention\n* refusal or inability to sign an informed consent\n* potential for on-compliance towards the requirements in the trial protocol (especially the medical treatment) or follow-up visits",
+      "sponsor": "The University of Hong Kong",
+      "enrollment": 30,
+      "start_date": "2020-04-09",
+      "completion_date": "2021-09-30",
+      "locations": [
+        {
+          "facility": "Queen Mary Hospital",
+          "city": "Hong Kong",
+          "country": "Hong Kong"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT04200586",
+      "last_updated": "2021-08-03"
+    },
+    {
+      "nct_id": "NCT02762370",
+      "title": "Study to Assess the Effects of FX006 on Blood Glucose in Patients With OA of the Knee and Type 2 Diabetes",
+      "brief_summary": "The purpose of this study was to compare the effects of FX006 and Triamcinolone Acetonide Injectable Suspension, United States Pharmacopeia (USP) (referred to as TCA IR in the protocol) on blood glucose (BG) in patients with osteoarthritis (OA) of the knee and Type 2 diabetes mellitus (DM).",
+      "detailed_description": "This study employed a double-blind, randomized, parallel group, single dose design to explore the pharmacodynamic effects on BG levels in type 2 diabetics following IA administration of 32 mg FX006 compared to 40 mg TCA IR. The study was conducted in male and female patients \u226540 years of age with OA of the knee and type 2 DM not managed by injectable agents. In order to be eligible for study participation, patients were to be treated with 1 or 2 oral agents and have hemoglobin A1c (HbA1c) levels between 6.5%-9.0%.\n\nApproximately 36 patients were planned to be randomized and treated to ensure there were at least 30 evaluable patients (15 patients on FX006 and 15 patients on TCA IR). Patients were randomized to 1 of 2 treatment groups (1:1) and treated with a single IA injection of either:\n\n* 32 mg FX006 (18 patients) or\n* 40 mg TCA IR (18 patients)\n\nBG levels in each patient were evaluated for a total of 3 weeks (1 week prior to IA injection and 2 weeks post IA injection). After a screening visit, patients' BG levels were measured using a Dexcom Z4 Platinum Professional\u2122 continuous glucose monitor (CGM) device, set to blinded mode, for up to 1 week pre-injection and for 2 weeks post injection using the same blinded CGM device. Patients also were provided with a Bayer Contour\u2122 standard glucose measuring meter in order to perform the necessary calibrations per the manufacturer's recommendations. A final safety visit was planned at 6 weeks post-injection.",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "conditions": [
+        "Osteoarthritis of the Knee",
+        "Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        {
+          "name": "FX006 32 mg",
+          "type": "DRUG"
+        },
+        {
+          "name": "TCA IR 40 mg",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Willingness and ability to comply with the study procedures and visit schedules and ability to follow verbal and written instructions\n* Male or female \u226540 years of age\n* Type 2 diabetes mellitus for at least 1 year prior to Screening and not managed with injectable agents (e.g. insulin or insulin analogs, exenatide, pramlintide, liraglutide)\n* Currently treated with 1 or 2 oral agents for diabetes, with stable doses for at least 2 months\n* HbA1c \u22656.5% and \u2264 9.0%\n* Currently meets American College of Rheumatology (ACR) Criteria (clinical or radiological) for OA.\n* Symptoms associated with OA of the knee for \u2265 6 months prior to Screening\n* Index knee pain on most days (\\>15) over the last month (as reported by the patient)\n* Body mass index (BMI) \u2264 40 kg/m2\n* Willingness to abstain from use of protocol-specified restricted medications during the study\n* Willingness to wear a CGM device uninterrupted for 24 hours per day throughout the study, remain with receiving range and comply with calibration requirements\n* Accustomed to using a Standard Blood Glucose Measuring device by finger stick\n\nExclusion Criteria:\n\n* Reiter's syndrome, rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis or arthritis associated with inflammatory bowel disease\n* History of infection in the index knee joint\n* Clinical signs and symptoms of active knee infection or crystal disease of the index knee within 1 month of Screening\n* Presence of surgical hardware or other foreign body in the index knee\n* Unstable joint (such as a torn anterior cruciate ligament) within 12 months of screening\n* IA corticosteroid (investigational or marketed) in any joint within 3 months of Screening\n* IA hyaluronic acid (investigational or marketed) in the index knee within 6 months of Screening\n* IV or intramuscular (IM) corticosteroids (investigational or marketed) within 3 months of Screening\n* Oral corticosteroids (investigational or marketed) within 1 month of Screening\n* Inhaled, intranasal or topical corticosteroids (investigational or marketed) within 2 weeks of Screening\n* Any other IA investigational drug/biologic within 6 months of Screening\n* Prior use of FX006\n* Use of acetaminophen, or acetaminophen containing products\n* Current use of a continuous glucose monitoring device\n* Women of child-bearing potential not using effective contraception or who are pregnant or nursing",
+      "sponsor": "Pacira Pharmaceuticals, Inc",
+      "enrollment": 33,
+      "start_date": "2016-04",
+      "completion_date": "2016-11",
+      "locations": [
+        {
+          "facility": "",
+          "city": "Anaheim",
+          "country": "United States"
+        },
+        {
+          "facility": "",
+          "city": "El Cajon",
+          "country": "United States"
+        },
+        {
+          "facility": "",
+          "city": "North Hollywood",
+          "country": "United States"
+        },
+        {
+          "facility": "",
+          "city": "Duncansville",
+          "country": "United States"
+        },
+        {
+          "facility": "",
+          "city": "Mt. Pleasant",
+          "country": "United States"
+        },
+        {
+          "facility": "",
+          "city": "Knoxville",
+          "country": "United States"
+        },
+        {
+          "facility": "",
+          "city": "Dallas",
+          "country": "United States"
+        },
+        {
+          "facility": "",
+          "city": "San Antonio",
+          "country": "United States"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02762370",
+      "last_updated": "2024-01-24"
+    },
+    {
+      "nct_id": "NCT07255170",
+      "title": "RED BEAN AND TOMATO SNACK BAR FORMULATIONS AS A HEALTHY SNACK FOR DIABETES MELLITUS PATIENTS",
+      "brief_summary": "The goal of this clinical trial is to develop a \"GlycoBite\" snack bar formulation combination of red beans and tomatoes, and to assess its acceptability, nutritional content, and effectiveness on blood glucose levels in diabetic patients. The main questions it aims to answer are:\n\n1. Dose snack bar formulation combination of red beans and tomatoes as a potensial healthy snack for diabetic patients?\n2. Does snack bar formulation combination of red beans and tomatoes improve glycemic control\n3. Does snack bar formulation combination of red beans and tomatoes lower blood glucose",
+      "detailed_description": "Researchers will compare GlycoBite (red beans and tomato combine) snack bar to commercial snack bar to see if GlycoBite works to control blood glucose\n\nParticipants will:\n\n1. Take 40 grams of GlycoBite or commercial snack bar every day for 3 weeks\n2. Weekly fasting blood glucose monitoring and evaluations were carried out.\n3. Monitoring glycemic control ( HbA1c Levels) before and after intervention.",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Diabetes Mellitus"
+      ],
+      "interventions": [
+        {
+          "name": "The GlycoBite snack bar formula created is to combine tomatoes and red beans in a ratio of 60% and 40% respectively. Participants consuming 40 grams of \"GlycoBite\" snack bars daily",
+          "type": "COMBINATION_PRODUCT"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. Type 2 DM patients\n2. No medication therapy modifications during the intervention; and 4) no\n\nExclusion Criteria:\n\n1. Other extreme diets\n2. Severe stress or acute infection",
+      "sponsor": "University Ngudi Waluyo",
+      "enrollment": 100,
+      "start_date": "2025-08-15",
+      "completion_date": "2025-11-22",
+      "locations": [
+        {
+          "facility": "Semarang",
+          "city": "Semarang",
+          "country": "Indonesia"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT07255170",
+      "last_updated": "2025-11-28"
+    },
+    {
+      "nct_id": "NCT06054841",
+      "title": "Reshaping Postpartum Follow-up",
+      "brief_summary": "The aim of this study is to evaluate the impact of personalized postpartum follow-up cards on completion of postpartum health related tasks. The intervention will consist of a card given to patients at time of discharge. One side of the card will list the patient's name and a list of recommended postpartum follow-up appointments based on their diagnoses at the time of discharge. Participants will be randomized to this intervention or the control group, which will consist of standard education routinely given at discharge.\n\nThe primary endpoint will be the rate of completion of a postpartum blood pressure check or two hour glucose tolerance test, or both, depending on the patient's discharge diagnosis within the first year after discharge. The secondary endpoints will include establishing care with a primary care provider within the first year after delivery, or completion of postpartum pap smear or colposcopy, as indicated.",
+      "detailed_description": "",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "conditions": [
+        "Hypertension in Pregnancy",
+        "Gestational Diabetes",
+        "Cervical Dysplasia"
+      ],
+      "interventions": [
+        {
+          "name": "Postpartum follow up card",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "name": "Control",
+          "type": "OTHER"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Subjects \\>=18 years of age\n* Ability to read English or Spanish\n* Delivered via vaginal delivery or c-section within the past 48 hours\n* Able to consent for themselves\n\nExclusion Criteria:\n\n* Received antepartum care at a facility outside of the Medstar system or plans to continue care with a facility outside of the Medstar system",
+      "sponsor": "Medstar Health Research Institute",
+      "enrollment": 157,
+      "start_date": "2023-05-22",
+      "completion_date": "2025-03-01",
+      "locations": [
+        {
+          "facility": "Washington Hospital Center",
+          "city": "Washington D.C.",
+          "country": "United States"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06054841",
+      "last_updated": "2025-06-29"
+    },
+    {
+      "nct_id": "NCT02079805",
+      "title": "A Study to Explore the Effects of Azilsartan Compared to Telmisartan on Insulin Resistance of Patients With Essential Hypertension on Type 2 Diabetes Mellitus by HOMA-R",
+      "brief_summary": "Multicenter, randomized, open-label, parallel-group exploratory study to explore the effects of azilsartan (Azirva), compared with telmisartan, on insulin resistance in participants with essential hypertension complicated by type 2 diabetes mellitus",
+      "detailed_description": "The primary objective of the present study is to explore the effects of azilsartan 20 mg, compared with telmisartan 40 mg, once daily orally for 12 weeks on insulin resistance in participants with essential hypertension complicated by type 2 diabetes mellitus.",
+      "status": "COMPLETED",
+      "phase": "PHASE4",
+      "conditions": [
+        "Essential Hypertension Complicated by Type 2 Diabetes Mellitus"
+      ],
+      "interventions": [
+        {
+          "name": "Azilsartan",
+          "type": "DRUG"
+        },
+        {
+          "name": "Telmisartan",
+          "type": "DRUG"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n1. The participant was given the diagnosis of grade I or II essential hypertension and was judged by the principal investigator or investigator that they can be appropriately treated with azilsartan 20 mg and telmisartan 40 mg.\n2. Sitting systolic blood pressure of \u2265 130 mmHg and \\< 180 mmHg or sitting diastolic blood pressure of \u2265 80 mmHg and \\< 110 mmHg at the start of the treatment period (Week 0) Sitting blood pressure will be measured until 2 consecutive stable measurements are obtained (i.e., the difference between 2 measurements: diastolic blood pressure of \\<5 mmHg and systolic blood pressure of \\< 10 mmHg) after resting in a sitting position for at least 5 minutes. The average value of the last 2 measurements will be recorded (the first the decimal place is rounded off).\n3. Type 2 diabetes mellitus\n4. HbA1c (NGSP (National Glycohemoglobin Standardization Program) value) of \\< 8.4% during 3 months before informed consent, with a \u2264 0.3% change in HbA1c (peak minus nadir) during 3 months before informed consent\n5. No change in diet/exercise therapy during the 3 months before the informed consent in a participant who has been on diet/exercise therapy and instructed to improve life style (e.g., diet and exercise)\n6. Age \u2265 20 years at the time of consent\n7. Outpatients\n8. Capable of providing written consent before participation in this study.\n\nExclusion Criteria:\n\n1. Grade III essential hypertension (i.e., sitting systolic blood pressure 180 mmHg or sitting diastolic blood pressure \u2265 110 mmHg), secondary hypertension, or malignant hypertension.\n2. Grade II essential hypertension (i.e., sitting systolic blood pressure \u2265 160 mmHg or sitting diastolic blood pressure \u2265 100 mmHg) for which antihypertensive drug(s) are used\n3. Use of oral antihypertensive medication within 2 weeks before the start of the treatment period Participants who are on any antihypertensive agent at the time of informed consent can be enrolled in the study only after 2-week washout following informed consent.\n4. Use of RAS inhibitors or thiazolidines within 3 months before the start of the treatment period\n5. Type 1 diabetes mellitus\n6. Fasting blood glucose of \\< 180 mg/dL and HOMA-R of \u2264 1.6 at the start of the treatment period (Week 0)\n7. Receiving or requiring any of the following at the time of informed consent:\n\n   * Insulin, glucagon-like peptide-1 (GLP-1) receptor agonists, or other parenteral hypoglycemic agents\n   * Combination therapy with 3 or more oral hypoglycemic agents\n8. Change of antidiabetic medication (including dosage change) within 3 months before the start of the treatment period\n9. Having diagnosed/treated any of the following cardiovascular diseases within 3 months before the start of the treatment period:\n\n   * Cardiac disease/condition: myocardial infarction, coronary revascularization procedure\n   * Cerebrovascular disease: cerebral infarction, cerebral haemorrhage, transient ischaemic attack\n   * Advanced hypertensive retinopathy (retinal bleeding or oozing, papilloedema)\n10. Having diagnosed/treated for any of the following cardiovascular diseases more than 3 months before the start of the treatment period, and is now still in unstable condition.\n\n    * Cardiac disease/condition: myocardial infarction, coronary revascularization procedure\n    * Cerebrovascular disease: cerebral infarction, cerebral haemorrhage, transient ischaemic attack\n11. Past or current history of any of the following cardiovascular diseases.\n\n    * Cardiac valve stenosis\n    * Angina pectoris requiring medication\n    * Congestive cardiac failure requiring medication\n    * Arrhythmia requiring medication (e.g., paroxysmal atrial fibrillation, severe bradycardia, torsade de pointes, and ventricular fibrillation)\n    * Arteriosclerosis obliterans with intermittent claudication or other symptoms\n12. Have severe ketosis, diabetic coma or precoma, severe infection, or serious trauma\n13. Clinically evident renal disorder (e.g., eGFR \\<30 mL/min/1.73 m2)\n14. Markedly low bile secretion or severe hepatic disorder\n15. History of hypersensitivity or allergy to azilsartan or telmisartan or to both.\n16. Presence of hyperkalemia (potassium level \u2265 5.5 mEq/L on laboratory testing)\n17. Currently participating in any other clinical study.\n18. Pregnant women, women with possible pregnancy, or breast-feeding women.\n19. Other participants who are inappropriate for participation in this study in the opinion of the principal investigator or investigator.",
+      "sponsor": "Takeda",
+      "enrollment": 33,
+      "start_date": "2014-06",
+      "completion_date": "2016-04",
+      "locations": [
+        {
+          "facility": "",
+          "city": "Kyoto",
+          "country": "Japan"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT02079805",
+      "last_updated": "2017-08-02"
+    },
+    {
+      "nct_id": "NCT06857994",
+      "title": "The Association Between Cognitive Function and Neuropathy in Individuals With Type 2 Diabetes",
+      "brief_summary": "The goal of this observational study is to evaluate whether individuals with different types of diabetic neuropathy (peripheral and cardiovascular autonomic neuropathy) are at an increased risk of cognitive impairment and to investigate the potential reasons for this association.\n\nThe primary research question is: Is diabetic peripheral and cariovascular autonomic neuropathy in type 2 diabetes associated with cognitive decline?\n\nTo address this question, the study will include individuals with and without type 2 diabetes. All participants will undergo comprehensive neuropathy assessments, neuropsychological evaluations and blood biomarker analysis. In addition, some individuals will undergo structural and functional brain MRI.",
+      "detailed_description": "Type 2 diabetes (T2D) is a chronic disease with complications that affect various organs over time. While certain complications have been well- established for decades, recent research points to the brain as an important site of diabetes-associated damage. This aligns with the growing awareness of the cognitive impact of diabetes. Diabetes is associated with mild to moderate alterations in cognitive functions across diverse age groups and an increased risk of developing dementia. The precise mechanism underlying these associations remains elusive, but some studies suggest that impaired peripheral nerve function correlates with negative cognitive outcomes and may be associated with structural and functional brain changes. Since diabetic neuropathy is one of the most common complications of diabetes, it might contribute to an increased dementia risk.\n\nASCEND is a clinical descriptive study that aims to evaluate the association between diabetic neuropathy and cognitive function in individuals with type 2 diabetes (compared to controls without diabetes). The study comprises the following visits:\n\n* Screening visit\n* Neuropathy assessment and neuropsychological testing visit\n* Structural and functional MRI (only a subset of participants)\n\nThe neuropathy assessment will include the following measures:\n\n* Peripheral vibration sensation (biothesiometer)\n* Cardiovascular autonomic neuropathy (Vagus device) both resting heart rate variability and cardiovascular reflex tests\n* Nerve conduction velocity and amplitude of the Sural nerves by DPN-check\n* Light touch and pain sensation (10 g monofilament and 40g needle)\n* Peripheral small-fiber sympathetic function (Sudoscan device)\n* Cold and warm sensation of foot and lower leg\n\nThe neuropsychological test will include the following:\n\n* Rey Auditory Verbal Learning Test (RAVLT)\n* Trail Making Test (TMT) part A and B\n* Symbol Digit Modalities Test (SDMT)\n* RBANS Digit Span forward (Version A)\n* Wechsler Adult Intelligence Scale III Letter-Number Sequencing test (WAIS-LNS)\n* Verbal Fluency test (letters S and D)\n* Grooved Pegboard\n* Rapid Visual Processing (RVP) test from the Cambridge Neuropsychological Test Automated Battery (CANTAB) using A' (RVP-A) and mean latency for correct responses",
+      "status": "COMPLETED",
+      "phase": null,
+      "conditions": [
+        "Peripheral Diabetic Neuropathy",
+        "Cardiovascular Autonomic Neuropathy",
+        "Cognitive Impairment",
+        "Diabetes Type 2"
+      ],
+      "interventions": [],
+      "eligibility_criteria": "Since the study includes both individuals with and without diabetes, there are two sets of inclusion criteria. Exclusion criteria apply to both indivdiuals with and without diabetes.\n\nInclusion Criteria:\n\nFor individuals with type 2 diabetes:\n\n* Age \\>= 65 years\n* Type 2 Diabetes diagnosis (defined according to the criteria from World Health Organization) for more than 5 years\n* BMI \\<= 35\n* Stable diabetes treatment for at least 8 weeks (adjustments of already prescribed insulin doses are accepted)\n* Plasma hemoglobin \u2265 8.00 mmol/L (male) or \u2265 6.4 mmol/L (female)\n* Speaks and understands Danish (required for the cognitive tests)\n* Informed and written consent\n\nFor individuals without type 2 diabetes:\n\n* Age \u2265 65 years\n* Not diagnosed with T2D diagnosis (defined according to criteria from World Health Organization (WHO))\n* Speaks and understands Danish (required for the cognitive tests)\n* Informed and written consent\n\nExclusion Criteria (all individuals):\n\n* Any medical condition which, based on investigators assessment, challenges or hinders participation in cognitive screening, impedes compliance with the study protocol or evaluation of results, including but not limited to psychiatric disorders, neurological disorders, chronic pain disorders etc.\n* Significant history of alcoholism or drug/chemical substance abuse as per the investigator's judgement.\n* Individuals in active laser treatment for retinopathy, atrial fibrillation, atrial flutter, or pacemakers since these cannot take part in CAN measurements.\n* Individuals unable to take part in the MRI because of e.g., metallic objects in the body or severe claustrophobia.\n* Individuals who do not wish to be informed about accidental findings by MR.\n* Diagnosis of dementia (ICD F00-F03) or participants who have previously been referred to a dementia clinic.\n* Severe hypoglycemic events during the past 6 months requiring medical assistance.\n* Severe renal insufficiency as eGFR \u2264 30 ml/min/1.73 m2\n* Inadequately treated blood pressure at screening defined as repeated resting blood pressure outside the range of 90-150 mmHg for systolic and 50-100 for diastolic.\n* Active or recent (\u2264 12 months) malignant disease as judged by the investigator.",
+      "sponsor": "Steno Diabetes Center Copenhagen",
+      "enrollment": 101,
+      "start_date": "2025-03-10",
+      "completion_date": "2026-04-23",
+      "locations": [
+        {
+          "facility": "Steno Diabetes Center Copenhagen",
+          "city": "Herlev",
+          "country": "Denmark"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06857994",
+      "last_updated": "2026-04-29"
+    },
+    {
+      "nct_id": "NCT03804905",
+      "title": "STUDIIO-Diabetes Pilot: STUdy of Drug Insurance to Improve Outcomes of Diabetes",
+      "brief_summary": "Canada is the only country with a universal health insurance system that does not provide coverage for prescription drugs to all residents. One-third of working-age Canadians have no insurance. Importantly, many of these uninsured patients already face other barriers to good health: low income, new immigrants, single mothers, etc. For these patients, taking prescription drugs - especially chronic disease treatments that may be required lifelong - can be difficult due to high costs. Patients skip doses, delay renewing prescriptions, or simply do not fill prescriptions recommended by their doctors, because they do not have insurance to cover the costs of prescriptions. Previous research by the study team has suggested that the lack of a universal drug insurance program for working-age Canadians affects the health and well-being of low-income people with diabetes. The goal of this research is to determine the clinical and economic impact of providing drug coverage for uninsured type 2 diabetics.",
+      "detailed_description": "Previous research has found that lowering patients' out-of-pocket costs has a positive impact on health service utilization, risk factor control and patient-reported health for many chronic diseases, including diabetes, hypertension, HIV and asthma. Among patients with chronic disease, medication adherence was inversely associated with hospitalization rates and total healthcare costs, and these relationships were far stronger for diabetes than for any other chronic disease. A recent meta-analysis of eight observational studies showed that adherence with diabetes medications is associated reduction in cardiovascular events, all-cause mortality and all-cause hospitalization. However, virtually all of this previous research has been observational. Only one rigorous intervention study has examined the impact of reducing patient borne drug costs on clinical outcomes. The outcome of this study showed that free medications led to health outcome improvements and a trend towards lower costs.\n\nThe goal of this research project is to determine the impact of providing drug coverage to uninsured individuals with one of the most costly chronic diseases, type 2 diabetes. The ultimate goal is to evaluate if lowering out-of-pocket drug costs for uninsured patients is effective and cost-effective to reduce disease morbidity and mortality. Will policy intervention to reduce patients' drug costs would actually translate into improvements in their health outcomes? What impact a universal program would have on overall drug utilization? What total budget impact such a program might have? What extent the cost savings accrued from improving health outcomes might offset the program's implementation costs. Answering these questions will provide essential evidence to inform decision making for a national publicly-funded pharmacare program.\n\nIt will demonstrate how medication utilization changes when access improves, and will identify if barriers to utilization other than affordability exist. Crucially, the economic analyses will help policy makers understand the budget impact and cost-effectiveness of a pharmacare intervention. Thus, this research will provide vital information for policy makers crafting a program to provide free drugs to all uninsured Canadians with chronic disease. Such a program is anticipated to have a positive impact on patient experience: to improve health equity and access for vulnerable patients; to facilitate greater medication adherence; and to enhance shared decision-making between patients and their clinicians for effective self-management care paths. The ultimate impact of this research will be evidence for the cost effectiveness or even cost savings of a drug insurance program aimed at the improving access to medications for disadvantaged patients who are currently uninsured.",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "NA",
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Medication Adherence",
+        "Medication Compliance",
+        "Medication Nonadherence"
+      ],
+      "interventions": [
+        {
+          "name": "No-cost Medications",
+          "type": "OTHER"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* clinical diagnosis of type 2 diabetes record in family physician's electronic medical record\n* lack of medication insurance\n\nExclusion Criteria:\n\n\\-",
+      "sponsor": "Sunnybrook Health Sciences Centre",
+      "enrollment": 144,
+      "start_date": "2026-01-01",
+      "completion_date": "2026-12-31",
+      "locations": [],
+      "url": "https://clinicaltrials.gov/study/NCT03804905",
+      "last_updated": "2024-12-24"
+    },
+    {
+      "nct_id": "NCT06972251",
+      "title": "TARDIS - Photo Elicitation and Intervention",
+      "brief_summary": "Veterans with type 2 diabetes (T2D) may become overwhelmed with the self-management behaviors needed to maintain optimal health. Veterans may experience diabetes distress (DD), a concept distinct from depression, due the amount and frequency of these behaviors. Diabetes distress negatively influences the Veteran's engagement in self-management and subsequent glycosylated hemoglobin (HbA1c) levels. Previous interventions aimed at improving T2D self-management and reducing DD do not tailor T2D self-management information to a Veteran's DD, which may be one reason interventions are ineffective at reducing DD.\n\nThe purpose of this study is to further understand DD by expanding on what the investigators have learned thus far in cognitive and semi-structured interviews with Veterans (see ClinicalTrials.gov identifier NCT04587336). In Aim 3a, the photo elicitation study, the Veteran would be provided with a camera and instructed to take approximately 20 photos over two weeks. The investigators would conduct two semi-structured interviews with the Veteran to discuss this experience. Visual-based qualitative methods will help us identify and more robustly describe DD in Veterans. In Aim 3b, the investigators will conduct a pilot study of a novel telemedicine intervention.\n\nThe TARDIS intervention (Aim 3b) will build off data collected in Aim 3a and provide tailored coaching to Veterans with type 2 diabetes mellitus. The TARDIS intervention includes coaching, self-management information, and referrals to Veterans Health Administration (VHA) supportive services delivered via the telephone. TARDIS will augment current VHA care for patients with diabetes. All Veterans will continue to receive care from their primary clinicians during the study.",
+      "detailed_description": "Background and Significance: An estimated 20-25% of Veterans are diagnosed with diabetes, an incidence three times higher than the national rate. Treatment and management of poorly self-managed diabetes is costly as medical care costs are 2.3 times higher for individuals with diabetes than for those who do not have the disease. Regular preventative care is essential to prevent comorbidities and maintain optimal health. Individuals with T2D provide 99% of their own care; self-management of T2D is person-specific and ever-present. Consistent and sustained self-management decreases comorbidity development, and positively influences quality of life and psychosocial outcomes. Inconsistent self-management increases the risk of poor health outcomes including microvascular and/or macrovascular problems and psychosocial complications. Yet rates of self-management remain sub-optimal.\n\nT2D self-management is omnipresent, inescapable, and burdensome. A Veteran may become overwhelmed and/or frustrated because of the amount and frequency of T2D self-management behaviors, and these negative feelings may lead to inattention to critical self-management behaviors such as eating healthy or blood glucose checks. Veterans often experience challenges to self-management despite knowing the importance of these behaviors. Self-management challenges include limited access to a healthcare provider, unreliable transportation, limited knowledge of healthy food options, beliefs about T2D medications, or a lack of support. Additionally, diabetes distress (DD) and other psychosocial factors (i.e., depression, post-traumatic stress disorder) negatively influence an individual's engagement in self-management and health outcomes. Due to the inherent complexity of T2D self-management, the investigators propose that tailoring on DD is one way to focus the provision of tailored self-management information and connections to supportive services. Diabetes distress encompasses the cognitive, physical, and affective experience of living with T2D. Diabetes distress occurs when an individual is overwhelmed with T2D, related self-management behaviors, and knowledge that T2D is progressive and incurable. Diabetes distress is subjective and person-specific; and while DD may fluctuate over time, DD may be continually present. Undiagnosed and untreated DD, may be one cause of a Veteran's poor self-management, thus resulting in poor health outcomes.\n\nDiabetes distress is commonly assessed via the Diabetes Distress Scale or the Problem Areas in Diabetes Scale. Research indicates both measures demonstrate the construct of DD is distinct from general anxiety, stress, and depression. Both the Diabetes Distress Scale and Problem Areas in Diabetes scales assess DD in several domains, and each DD domain addresses a separate aspect of the burden of T2D. The Diabetes Distress Scale measures DD in four domains (i.e., regimen, emotional, interpersonal, healthcare provider), and the Problem Areas in Diabetes Scale assesses DD using similar domains (i.e., emotional, diabetes management, treatment, and social support burden). The Diabetes Distress Scale and Problem Areas in Diabetes Scale have demonstrated content validity in measuring an individual's perception of the resources available, or not available, for self-management. Diabetes distress is associated with more T2D complications, increased stress, being prescribed insulin by a healthcare provider, poor diet and exercise, inadequate support environments, and is more prevalent among women. Diabetes distress levels correlate with self-management behaviors such as monitoring one's diet, engaging with providers, and monitoring one's blood glucose. High to moderate levels of DD are related to poorer glucose regulation, higher HbA1c, lower medication adherence, and poorer quality of life. Individuals with DD report diabetes-related physical burden, health care system distress, and distress with comorbid conditions. In this study, the investigators will further examine the Veteran's experience of DD.\n\nThe TARDIS grant and the prior work done for TARDIS was based upon the original Diabetes Distress Scale (DDS) and the four domains within that scale. Those domains include: regimen, provider, interpersonal, and emotional. In 2022, the authors of the Diabetes Distress Scale published an updated version of the DDS called the Type 2 Diabetes Distress Assessment System (T2D-DDAS). The T2D-DDAS contains core and source items that contribute to DD. The T2D-DDAS sources include: hypoglycemia, long-term health, health care provider, interpersonal issues, shame/stigma, healthcare access, and management demands. The sources or facets of DD the investigators identified in the TARDIS foundational work are reflected in the T2D-DDAS. Of note, the investigators identified several additional facets of DD in our work such as pain, military experience, living with comorbidities, and being a caregiver. The scoring for low, moderate, and high DD in the DDS and the T2D-DDAS is the same. For the TARDIS intervention, the investigators will be focusing on the domains of DD as measured by the DDS and not the sources of DD as measured by the T2D-DDAS. The DDS is in the Cerner electronic health record (EHR) and is being used in the VA and the foundational TARDIS work uses the DDS.\n\nAim 3a: Visual Based Qualitative Methods Visual-based qualitative methods will help us identify and more robustly describe DD in Veterans and will expand on what the investigators have learned thus far in cognitive and semi-structured interviews. Veterans will have the autonomy to select photos that impact, either positively or negatively, their DD and diabetes self-management behaviors. Veterans who participate in the project may want to share their experiences because this is their personal story which they want to share to help other people. The Veteran has the autonomy to decide what, and how much, information to share.\n\nAim 3b: TARDIS Intervention The TARDIS intervention builds upon data collected in Aim 3a. Health coaching is a person-centered approach to identifying health goals, challenges to these goals, and then developing strategies to address these challenges. For the purposes of TARDIS, interactions are 1:1 between a 'coach', or someone who has received training in motivational interviewing, and a Veteran with type 2 diabetes mellitus (T2DM). This personalized approach can help elicit, understand, and address the experience of DD, and its impact on T2DM self-management, in Veterans with T2DM. With personalized, Veteran-centric information and support, a Veteran may be more equipped to implement self-management to overcome his/her personal modifiable challenges to engaging in T2DM self-management.",
+      "status": "COMPLETED",
+      "phase": "NA",
+      "conditions": [
+        "Diabetes Mellitus, Type II",
+        "Type 2 Diabetes",
+        "Diabetes Distress",
+        "Self Management",
+        "Veteran"
+      ],
+      "interventions": [
+        {
+          "name": "TARDIS Photo Elicitation",
+          "type": "BEHAVIORAL"
+        },
+        {
+          "name": "TARDIS Intervention",
+          "type": "BEHAVIORAL"
+        }
+      ],
+      "eligibility_criteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes (ICD-10 codes: E11.9, E11.8)\n* Documentation of HbA1c drawn within the past 180 days\n* Able to speak and read English\n* Be able to provide informed consent to participate in the study\n* Own a mobile phone with advanced computing capabilities (otherwise known as a smartphone) or mobile device to take photos (Aim 3a only)\n* hemoglobin A1C (HbA1C) test value greater than or equal to 8.5 (Aim 3b only)\n* Be prescribed insulin (Aim 3b only)\n\nExclusion Criteria:\n\n* New diagnosis of T2D within the last 60 days\n* Hospitalization for mental illness within the past 30 days\n* Receiving active chemotherapy and/or radiation treatment\n* Diagnosis for metastatic cancer\n* Recent hospitalization within the past 60 days that would influence their diabetes medication regimen (e.g., myocardial infarction, cerebrovascular accident, coronary artery bypass grafting, etc.)\n* Currently receiving kidney dialysis\n* Limited hearing or speech difficulties that influence the Veteran's ability to complete the survey and intervention\n* Dementia, delirium, or other cognition issues that influence the Veteran's ability to provide consent and complete the survey\n* Not currently prescribed insulin (Aim 3b only)",
+      "sponsor": "VA Office of Research and Development",
+      "enrollment": 34,
+      "start_date": "2022-03-08",
+      "completion_date": "2025-03-31",
+      "locations": [
+        {
+          "facility": "Durham VA Medical Center, Durham, NC",
+          "city": "Durham",
+          "country": "United States"
+        }
+      ],
+      "url": "https://clinicaltrials.gov/study/NCT06972251",
+      "last_updated": "2025-10-08"
+    }
+  ],
+  "count": 20,
+  "layer": "silver"
+}

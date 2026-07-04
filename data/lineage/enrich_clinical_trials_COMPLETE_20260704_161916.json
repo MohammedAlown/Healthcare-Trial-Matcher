@@ -1,0 +1,28 @@
+{
+  "eventType": "COMPLETE",
+  "eventTime": "2026-07-04T16:19:16.318663Z",
+  "run": {
+    "runId": "bdac2b67-ea90-4f10-99cc-eb92decde032",
+    "facets": {}
+  },
+  "job": {
+    "namespace": "healthcare-trial-matcher",
+    "name": "enrich_clinical_trials"
+  },
+  "inputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "silver.clinical_trials",
+      "facets": {}
+    }
+  ],
+  "outputs": [
+    {
+      "namespace": "healthcare-trial-matcher",
+      "name": "gold.clinical_trials",
+      "facets": {
+        "record_count": 20
+      }
+    }
+  ]
+}
