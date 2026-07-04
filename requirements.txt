@@ -15,3 +15,33 @@ httpx==0.27.2
 
 # XML Parsing
 xmltodict==0.14.1
+
+# Document Processing
+pypdf==5.1.0
+python-multipart==0.0.12
+
+# Messaging
+kafka-python==2.0.2
+
+# Embeddings
+sentence-transformers==3.3.1
+
+# Vector Database
+qdrant-client==1.12.1
+
+# RAG Framework
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-core==0.3.19
+
+# LLM
+groq==0.12.0
+
+# Frontend
+streamlit==1.40.1
+
+# Validation
+great-expectations==0.18.21
+
+# Lineage
+openlineage-python==1.25.0

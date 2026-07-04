@@ -4,29 +4,57 @@ A production-style Healthcare Clinical Trial Matcher using Advanced RAG (Retriev
 
 ## Architecture
 
-- **Backend:** FastAPI
-- **Frontend:** Streamlit
-- **Database:** PostgreSQL
-- **Vector DB:** Qdrant
-- **LLM:** OpenAI API
-- **Embeddings:** SentenceTransformers + ClinicalBERT
-- **RAG:** LangChain with Hybrid Search + Cross-Encoder Reranking
-- **Pipeline:** Apache Airflow
-- **Validation:** Great Expectations
-- **Containerization:** Docker
+```
+Source APIs → Kafka Producer → Topics → Consumer → Bronze → Silver → Gold → Embeddings → Qdrant → RAG → LLM → Response
+```
 
-## Features
+### Tech Stack
 
-- ClinicalTrials.gov data ingestion
-- PubMed paper ingestion
-- PDF document processing
-- Hybrid vector + keyword search
-- Cross-Encoder reranking
-- Citation generation with match explanations
-- Data quality validation
-- Audit logging and governance
-- Real-time data pipeline
-- Dockerized deployment
+| Component | Technology |
+|---|---|
+| Backend | FastAPI |
+| Frontend | Streamlit |
+| Database | PostgreSQL |
+| Vector DB | Qdrant |
+| LLM | Groq (LLaMA 3.1) |
+| Embeddings | SentenceTransformers (all-MiniLM-L6-v2) |
+| RAG | LangChain + Hybrid Search + Cross-Encoder |
+| Messaging | Kafka (with in-memory fallback) |
+| Lakehouse | Bronze/Silver/Gold (Delta pattern) |
+| Pipeline | Apache Airflow |
+| Validation | Great Expectations |
+| Lineage | OpenLineage |
+| Containerization | Docker |
+
+## Deliverables
+
+### 1. Ingestion Layer (Kafka + Schema Validation)
+- `pipeline/kafka/producer.py` — Kafka producer with schema validation
+- `pipeline/kafka/consumer.py` — Consumer processes messages from topics
+- Topics: `clinical-trials`, `pubmed-articles`, `documents`
+
+### 2. Delta Lakehouse (Bronze/Silver/Gold)
+- `pipeline/lakehouse/lakehouse.py` — Medallion architecture
+- Bronze: raw data storage (append-only)
+- Silver: cleaned, deduplicated, schema-enforced (MERGE)
+- Gold: enriched, search-ready data
+
+### 3. RAG Pipeline
+- `documents/text_chunker.py` — Overlapping text chunking
+- `embeddings/embedding_service.py` — SentenceTransformer embeddings
+- `rag/vector_store.py` — Qdrant vector index
+- `rag/hybrid_search.py` — Combined semantic + keyword search
+- `rag/reranker.py` — Cross-encoder reranking
+- `rag/rag_engine.py` — Full RAG pipeline with LLM generation
+
+### 4. Orchestration (Airflow DAG)
+- `pipeline/dags/ingestion_dag.py` — End-to-end DAG
+- Tasks: Fetch → Kafka → Lakehouse → Embed → Validate → Lineage
+
+### 5. Quality Gate
+- `validation/expectations.py` — Great Expectations suite
+- `validation/lineage.py` — OpenLineage event emitter
+- Validates data at bronze, silver, and gold layers
 
 ## Setup
 
@@ -38,23 +66,19 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-## Project Status
+## Running
 
-- [x] Milestone 1: Project Setup
-- [ ] Milestone 2: FastAPI Backend
-- [ ] Milestone 3: PostgreSQL Integration
-- [ ] Milestone 4: ClinicalTrials.gov Ingestion
-- [ ] Milestone 5: PubMed Ingestion
-- [ ] Milestone 6: Document Processing
-- [ ] Milestone 7: Embedding Generation
-- [ ] Milestone 8: Qdrant Vector Database
-- [ ] Milestone 9: Advanced RAG
-- [ ] Milestone 10: Cross-Encoder Reranking
-- [ ] Milestone 11: Real-Time Pipeline
-- [ ] Milestone 12: Data Validation
-- [ ] Milestone 13: Governance & Audit
-- [ ] Milestone 14: Frontend
-- [ ] Milestone 15: Docker Deployment
-- [ ] Milestone 16: Testing
-- [ ] Milestone 17: Documentation
-- [ ] Milestone 18: Final Push
+```bash
+# API server
+python -m uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
+
+# Frontend
+streamlit run frontend/app.py
+
+# Run pipeline standalone
+python pipeline/dags/ingestion_dag.py
+```
+
+## API Docs
+
+http://localhost:8000/docs
