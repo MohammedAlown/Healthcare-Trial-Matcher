@@ -9,3 +9,6 @@ python-dotenv==1.0.1
 sqlalchemy==2.0.35
 psycopg2-binary==2.9.10
 alembic==1.13.3
+
+# HTTP Client
+httpx==0.27.2

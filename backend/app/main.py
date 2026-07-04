@@ -1,10 +1,6 @@
 """
 main.py - FastAPI Application Entry Point
 
-This is where the FastAPI app is created and configured.
-All route modules are registered here using app.include_router().
-The database tables are created automatically on startup.
-
 Run with:
     python -m uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
 """
@@ -14,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from backend.app.core.config import settings
 from backend.app.core.logger import logger
-from backend.app.api.routes import health, trials
+from backend.app.api.routes import health, trials, ingestion
 from database.connection import init_db
 
 # --- Create the FastAPI application ---
@@ -42,6 +38,7 @@ app.add_middleware(
 # --- Register route modules ---
 app.include_router(health.router)
 app.include_router(trials.router)
+app.include_router(ingestion.router)
 
 
 # --- Startup event ---
@@ -51,7 +48,6 @@ async def startup_event():
     logger.info(f"Starting {settings.APP_NAME} v{settings.APP_VERSION}")
     logger.info(f"Debug mode: {settings.DEBUG}")
 
-    # Initialize database — create tables if they don't exist
     try:
         init_db()
         logger.info("Database connected successfully.")
