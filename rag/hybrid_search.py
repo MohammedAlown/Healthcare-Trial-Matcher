@@ -1,122 +1,87 @@
 """
-Hybrid Search — Combines vector (semantic) + keyword search.
+hybrid_search.py — Hybrid Search using BM25 + Vector + RRF
 
-Why hybrid?
-  - Vector search: finds semantically similar content
-    ("lung cancer" matches "NSCLC", "pulmonary carcinoma")
-  - Keyword search: finds exact matches
-    ("NCT04012345", "pembrolizumab")
+Two-stage retrieval:
+  Stage 1a: BM25 keyword search (exact term matching)
+  Stage 1b: Vector semantic search (meaning matching)
+  Stage 2:  Reciprocal Rank Fusion to combine both
 
-Combining both gives better results than either alone.
+This is the proper hybrid search pipeline:
+  BM25 results ──┐
+                  ├── RRF Fusion → Ranked Results
+  Vector results ─┘
 """
 
 from sqlalchemy.orm import Session
-from sqlalchemy import or_, func
-from database.models import ClinicalTrial, PubMedArticle
 from embeddings.embedding_service import generate_embedding
 from rag.vector_store import search_vectors
+from rag.bm25_search import bm25_index, BM25Index
+from rag.rrf import reciprocal_rank_fusion
 from backend.app.core.logger import logger
-
-
-def keyword_search(db: Session, query: str, limit: int = 20) -> list[dict]:
-    """Search PostgreSQL using keyword matching (SQL ILIKE)."""
-    search_term = f"%{query}%"
-
-    trials = db.query(ClinicalTrial).filter(
-        or_(
-            ClinicalTrial.title.ilike(search_term),
-            ClinicalTrial.brief_summary.ilike(search_term),
-            ClinicalTrial.eligibility_criteria.ilike(search_term),
-        )
-    ).limit(limit).all()
-
-    articles = db.query(PubMedArticle).filter(
-        or_(
-            PubMedArticle.title.ilike(search_term),
-            PubMedArticle.abstract.ilike(search_term),
-        )
-    ).limit(limit).all()
-
-    results = []
-    for t in trials:
-        results.append({
-            "id": f"trial_{t.nct_id}",
-            "entity_type": "clinical_trial",
-            "title": t.title,
-            "nct_id": t.nct_id,
-            "score": 0.5,
-            "source": "keyword",
-        })
-    for a in articles:
-        results.append({
-            "id": f"article_{a.pmid}",
-            "entity_type": "pubmed_article",
-            "title": a.title,
-            "pmid": a.pmid,
-            "score": 0.5,
-            "source": "keyword",
-        })
-
-    return results
-
-
-def semantic_search(query: str, limit: int = 10) -> list[dict]:
-    """Search Qdrant using vector similarity."""
-    query_vector = generate_embedding(query)
-    results = search_vectors(query_vector, limit=limit)
-
-    return [
-        {
-            "id": r["payload"].get("source_id", str(r["id"])),
-            "entity_type": r["payload"].get("entity_type", "unknown"),
-            "title": r["payload"].get("title", ""),
-            "score": r["score"],
-            "source": "semantic",
-            **{k: v for k, v in r["payload"].items() if k not in ["title", "entity_type"]},
-        }
-        for r in results
-    ]
 
 
 def hybrid_search(
     db: Session,
     query: str,
-    semantic_weight: float = 0.7,
-    keyword_weight: float = 0.3,
     limit: int = 20,
+    rrf_k: int = 60,
 ) -> list[dict]:
     """
-    Combine semantic + keyword search with weighted scoring.
+    Hybrid search combining BM25 + vector search + RRF fusion.
 
-    Hybrid scoring: final_score = (semantic_weight * vector_score) + (keyword_weight * keyword_score)
+    Args:
+        db: Database session
+        query: Search query
+        limit: Max results to return
+        rrf_k: RRF constant
+
+    Returns:
+        Fused and ranked results
     """
-    logger.info(f"Hybrid search: '{query}' (semantic={semantic_weight}, keyword={keyword_weight})")
+    logger.info(f"Hybrid search: '{query}'")
 
-    # Get results from both sources
-    semantic_results = semantic_search(query, limit=limit)
-    keyword_results = keyword_search(db, query, limit=limit)
+    # --- BM25 keyword search ---
+    bm25_index.build_from_db(db)
+    bm25_results = bm25_index.search(query, top_k=limit)
 
-    # Merge results by ID
-    merged = {}
+    # --- Vector semantic search ---
+    try:
+        query_vector = generate_embedding(query)
+        vector_results = search_vectors(query_vector, limit=limit)
+        vector_results = [
+            {
+                "id": r["payload"].get("source_id", str(r["id"])),
+                "entity_type": r["payload"].get("entity_type", "unknown"),
+                "title": r["payload"].get("title", ""),
+                "score": r["score"],
+                "source": "vector",
+                "brief_summary": r["payload"].get("brief_summary", ""),
+                **{k: v for k, v in r["payload"].items()
+                   if k not in ["title", "entity_type", "brief_summary"]},
+            }
+            for r in vector_results
+        ]
+    except Exception as e:
+        logger.warning(f"Vector search failed: {e}")
+        vector_results = []
 
-    for r in semantic_results:
-        rid = r["id"]
-        merged[rid] = r.copy()
-        merged[rid]["score"] = r["score"] * semantic_weight
-        merged[rid]["sources"] = ["semantic"]
+    # --- RRF Fusion ---
+    if bm25_results and vector_results:
+        fused = reciprocal_rank_fusion(
+            [bm25_results, vector_results],
+            k=rrf_k,
+            top_n=limit,
+        )
+    elif bm25_results:
+        fused = bm25_results[:limit]
+    elif vector_results:
+        fused = vector_results[:limit]
+    else:
+        fused = []
 
-    for r in keyword_results:
-        rid = r["id"]
-        if rid in merged:
-            merged[rid]["score"] += r["score"] * keyword_weight
-            merged[rid]["sources"].append("keyword")
-        else:
-            merged[rid] = r.copy()
-            merged[rid]["score"] = r["score"] * keyword_weight
-            merged[rid]["sources"] = ["keyword"]
+    logger.info(
+        f"Hybrid search: BM25={len(bm25_results)}, "
+        f"Vector={len(vector_results)}, Fused={len(fused)}"
+    )
 
-    # Sort by combined score
-    results = sorted(merged.values(), key=lambda x: x["score"], reverse=True)
-    logger.info(f"Hybrid search returned {len(results)} results")
-
-    return results[:limit]
+    return fused
